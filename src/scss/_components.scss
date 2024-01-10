@@ -1,0 +1,114 @@
+// colors
+
+$black: #2B2D30;
+$white: #fff;
+$yellow: #E1E046;
+$gray: #969696;
+
+// components
+
+.btn-arrow {
+    display: flex;
+    width: 5.9rem;
+    height: 5.9rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &.black {
+        background-color: $black;
+    }
+
+    &.white {
+        background-color: $white;
+    }
+
+    &.yellow {
+        background-color: $yellow;
+
+        path {
+            fill: $black;
+        }
+    }
+
+    @media (max-width: 48em) {
+        width: 8.4rem;
+        height: 8.4rem;
+    }
+}
+
+.btn-upload {
+    input {
+        display: none;
+    }
+
+    label {
+        display: flex;
+        align-items: center;
+        column-gap: 2.8rem;
+        cursor: pointer;
+
+        span {
+            font-size: 1.8rem;
+            font-weight: 500;
+        }
+    }
+
+    @media (max-width: 48em) {
+        label {
+            column-gap: 2.23rem;
+
+            span {
+                font-size: 3rem;
+            }
+        }
+    }
+}
+
+.checkbox {
+    input {
+        display: none;
+    }
+
+    input + label {
+        position: relative;
+        padding-left: 4.8rem;
+        font-size: 1.8rem;
+        font-weight: 500;
+        user-select: none;
+        cursor: pointer;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: -0.4rem;
+            left: 0;
+            width: 3.2rem;
+            height: 3.2rem;
+            background-image: url(../assets/images/svg/checkbox.svg);
+            background-size: 100% 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+    }
+
+    input:checked + label {
+        &::before {
+            background-image: url(../assets/images/svg/checkbox-checked.svg);
+        }
+    }
+
+    @media (max-width: 48em) {
+        input + label {
+            font-size: 3rem;
+            padding-left: 6.8rem;
+
+            &::before {
+                width: 4.8rem;
+                height: 4.8rem;
+                top: -0.6rem;
+            }
+        }
+    }
+}
