@@ -6,15 +6,324 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="header" style="font-size: 1.8rem">
+    <header class="header header_black">
       <div class="container">
-        Главная Каталог  ВиДео-оБзоры
+        <div class="header__burger mobile">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <a class="header_logo">
+          <img class="desktop" src="./assets/images/header/Logo-black.png" alt="">
+          <img class="mobile" src="./assets/images/header/Logo-black-mob.png" alt="">
+        </a>
+        <div class="header__box">
+          <div class="header__btns mobile">
+            <a class="header__btn_item">
+              <svg class="header__btn_main" xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
+                <rect y="41" width="41" height="41" rx="20.5" transform="rotate(-90 0 41)" fill="#E1E046"/>
+                <path d="M12.7121 26.3137L14.246 27.314H24.4723L26.5176 26.8139L28.5628 25.8136L30.0968 24.3131L30.6081 22.8127L30.0968 20.3119L28.5628 18.8115L27.0289 17.8112L26.5176 17.311L26.0063 15.8106L24.4723 13.3099L22.4271 12.3096H20.3818L17.8252 12.8097L15.78 14.8103L15.2687 16.3108L14.7573 18.3113V19.8118L14.246 20.3119L12.2008 21.8124L11.6895 24.3131L12.7121 26.3137Z" fill="#2B2D30"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M26.9671 16.568C26.4886 14.4194 25.3522 12.9227 23.8872 12.0591C22.323 11.1371 20.4568 10.9796 18.775 11.4205C17.0931 11.8614 15.5425 12.9146 14.6262 14.4843C13.8157 15.8728 13.534 17.6101 14.0324 19.5739C9.51489 20.6903 9.83058 27.7057 14.9002 28.0655C14.9178 28.0668 14.9355 28.0674 14.9532 28.0674H25.095C25.1769 28.0674 25.2556 28.0543 25.3294 28.0301C25.3925 28.0479 25.4591 28.0576 25.5278 28.0581C27.0005 28.0691 28.4161 27.5205 29.5018 26.5359C32.9732 23.492 31.3359 17.5568 26.9671 16.568ZM15.9216 15.2405C15.2949 16.3142 15.049 17.7363 15.5598 19.4736C16.0375 19.5375 16.5027 19.6834 16.9325 19.9024C17.3015 20.0904 17.4483 20.542 17.2603 20.9111C17.0723 21.2802 16.6207 21.427 16.2516 21.2389C15.8557 21.0373 15.4185 20.9329 14.9858 20.937C11.489 21.2043 11.4752 26.2942 14.9811 26.5674H25.095C25.1657 26.5674 25.2342 26.5772 25.2991 26.5955C25.3745 26.5707 25.4552 26.5575 25.539 26.5582C26.6323 26.5663 27.687 26.1585 28.4981 25.4211L28.5089 25.4115C31.1281 23.1207 29.7523 18.4996 26.3486 17.9767C25.9187 17.9888 25.503 18.0946 25.1124 18.2899C24.742 18.4751 24.2915 18.3249 24.1062 17.9544C23.921 17.584 24.0711 17.1335 24.4416 16.9482C24.7579 16.7901 25.0884 16.6702 25.429 16.5907C25.0004 14.9816 24.1351 13.9464 23.1255 13.3514C21.9498 12.6583 20.5031 12.5181 19.1554 12.8714C17.8077 13.2248 16.6121 14.0577 15.9216 15.2405Z" fill="#E1E046"/>
+                <circle cx="20.4962" cy="26.9884" r="3.58802" fill="#E1E046"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.0908 25.0615C21.0908 24.6473 20.7551 24.3115 20.3408 24.3115C19.9266 24.3115 19.5908 24.6473 19.5908 25.0615V26.9494C19.2962 26.7021 18.8562 26.717 18.579 26.9941C18.2862 27.287 18.2862 27.7619 18.579 28.0548L19.7926 29.2683C19.8643 29.3452 19.9527 29.4076 20.0538 29.4495C20.3341 29.5655 20.6567 29.5014 20.8712 29.2869L22.1029 28.0552C22.3957 27.7623 22.3957 27.2874 22.1029 26.9945C21.8257 26.7174 21.3855 26.7025 21.0908 26.9499V25.0615Z" fill="#2B2D30"/>
+              </svg>
+              <div class="header__btn_name">Загрузить проект</div>
+            </a>
+            <a class="header__btn_item">
+              <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="58.5" width="58" height="58" rx="29" transform="rotate(-90 0.5 58.5)" stroke="#969696"/>
+                <path d="M25.7139 22.9551V21.9361C25.7139 19.5727 27.6152 17.2512 29.9786 17.0306C32.7938 16.7575 35.1678 18.9739 35.1678 21.7366V23.1862" stroke="white" stroke-width="1.63636" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M27.2899 38.0079H33.5925C37.8152 38.0079 38.5715 36.3167 38.7921 34.2578L39.58 27.9552C39.8636 25.3921 39.1283 23.3018 34.6429 23.3018H26.2394C21.7541 23.3018 21.0188 25.3921 21.3024 27.9552L22.0902 34.2578C22.3108 36.3167 23.0671 38.0079 27.2899 38.0079Z" fill="white"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M34.1122 27.5037H34.1217Z" fill="white"/>
+                <path d="M34.1122 27.5037H34.1217" stroke="#2B2D30" stroke-width="2.18182" stroke-linecap="round" stroke-linejoin="round"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M26.7587 27.5037H26.7681Z" fill="white"/>
+                <path d="M26.7587 27.5037H26.7681" stroke="#2B2D30" stroke-width="2.18182" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <div class="header__btn_name">Корзина, количество товаров</div>
+            </a>
+            <a class="header__btn_item">
+              <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="58.5" width="58" height="58" rx="29" transform="rotate(-90 0.5 58.5)" stroke="#969696"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M28.6376 28.2773C28.7597 28.2662 28.893 28.2662 29.004 28.2773C31.6471 28.1885 33.7461 26.0229 33.7572 23.3576C33.7572 20.6368 31.5472 18.4268 28.8264 18.4268C26.0944 18.4268 23.8955 20.6368 23.8955 23.3576C23.8955 26.0229 25.9944 28.1885 28.6376 28.2773ZM23.4512 38.8947C20.7637 37.1067 20.7637 34.1749 23.4512 32.3758C26.5163 30.3435 31.5249 30.3435 34.5678 32.3758C37.2553 34.1638 37.2553 37.0956 34.5678 38.8947C31.5138 40.9381 26.5052 40.9381 23.4512 38.8947Z" fill="white"/>
+              </svg>
+              <div class="header__btn_name">Профиль</div>
+            </a>
+          </div>
+          <div class="header__box_title mobile">меню</div>
+          <div class="header__menu">
+            <a class="header__menu_item active">Главная</a>
+            <a class="header__menu_item">Каталог</a>
+            <a class="header__menu_item">Видео-обзоры</a>
+            <a class="header__menu_item">Like’s</a>
+            <a class="header__menu_item">База знаний</a>
+          </div>
+        </div>
+        <div class="header__btns">
+          <a class="header__btn_item desktop">
+            <svg class="header__btn_main" xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
+              <rect y="41" width="41" height="41" rx="20.5" transform="rotate(-90 0 41)" fill="#E1E046"/>
+              <path d="M12.7121 26.3137L14.246 27.314H24.4723L26.5176 26.8139L28.5628 25.8136L30.0968 24.3131L30.6081 22.8127L30.0968 20.3119L28.5628 18.8115L27.0289 17.8112L26.5176 17.311L26.0063 15.8106L24.4723 13.3099L22.4271 12.3096H20.3818L17.8252 12.8097L15.78 14.8103L15.2687 16.3108L14.7573 18.3113V19.8118L14.246 20.3119L12.2008 21.8124L11.6895 24.3131L12.7121 26.3137Z" fill="#2B2D30"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M26.9671 16.568C26.4886 14.4194 25.3522 12.9227 23.8872 12.0591C22.323 11.1371 20.4568 10.9796 18.775 11.4205C17.0931 11.8614 15.5425 12.9146 14.6262 14.4843C13.8157 15.8728 13.534 17.6101 14.0324 19.5739C9.51489 20.6903 9.83058 27.7057 14.9002 28.0655C14.9178 28.0668 14.9355 28.0674 14.9532 28.0674H25.095C25.1769 28.0674 25.2556 28.0543 25.3294 28.0301C25.3925 28.0479 25.4591 28.0576 25.5278 28.0581C27.0005 28.0691 28.4161 27.5205 29.5018 26.5359C32.9732 23.492 31.3359 17.5568 26.9671 16.568ZM15.9216 15.2405C15.2949 16.3142 15.049 17.7363 15.5598 19.4736C16.0375 19.5375 16.5027 19.6834 16.9325 19.9024C17.3015 20.0904 17.4483 20.542 17.2603 20.9111C17.0723 21.2802 16.6207 21.427 16.2516 21.2389C15.8557 21.0373 15.4185 20.9329 14.9858 20.937C11.489 21.2043 11.4752 26.2942 14.9811 26.5674H25.095C25.1657 26.5674 25.2342 26.5772 25.2991 26.5955C25.3745 26.5707 25.4552 26.5575 25.539 26.5582C26.6323 26.5663 27.687 26.1585 28.4981 25.4211L28.5089 25.4115C31.1281 23.1207 29.7523 18.4996 26.3486 17.9767C25.9187 17.9888 25.503 18.0946 25.1124 18.2899C24.742 18.4751 24.2915 18.3249 24.1062 17.9544C23.921 17.584 24.0711 17.1335 24.4416 16.9482C24.7579 16.7901 25.0884 16.6702 25.429 16.5907C25.0004 14.9816 24.1351 13.9464 23.1255 13.3514C21.9498 12.6583 20.5031 12.5181 19.1554 12.8714C17.8077 13.2248 16.6121 14.0577 15.9216 15.2405Z" fill="#E1E046"/>
+              <circle cx="20.4962" cy="26.9884" r="3.58802" fill="#E1E046"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M21.0908 25.0615C21.0908 24.6473 20.7551 24.3115 20.3408 24.3115C19.9266 24.3115 19.5908 24.6473 19.5908 25.0615V26.9494C19.2962 26.7021 18.8562 26.717 18.579 26.9941C18.2862 27.287 18.2862 27.7619 18.579 28.0548L19.7926 29.2683C19.8643 29.3452 19.9527 29.4076 20.0538 29.4495C20.3341 29.5655 20.6567 29.5014 20.8712 29.2869L22.1029 28.0552C22.3957 27.7623 22.3957 27.2874 22.1029 26.9945C21.8257 26.7174 21.3855 26.7025 21.0908 26.9499V25.0615Z" fill="#2B2D30"/>
+            </svg>
+          </a>
+          <a class="header__btn_item">
+            <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.5" y="58.5" width="58" height="58" rx="29" transform="rotate(-90 0.5 58.5)" stroke="#969696"/>
+              <path d="M25.7139 22.9551V21.9361C25.7139 19.5727 27.6152 17.2512 29.9786 17.0306C32.7938 16.7575 35.1678 18.9739 35.1678 21.7366V23.1862" stroke="white" stroke-width="1.63636" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M27.2899 38.0079H33.5925C37.8152 38.0079 38.5715 36.3167 38.7921 34.2578L39.58 27.9552C39.8636 25.3921 39.1283 23.3018 34.6429 23.3018H26.2394C21.7541 23.3018 21.0188 25.3921 21.3024 27.9552L22.0902 34.2578C22.3108 36.3167 23.0671 38.0079 27.2899 38.0079Z" fill="white"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M34.1122 27.5037H34.1217Z" fill="white"/>
+              <path d="M34.1122 27.5037H34.1217" stroke="#2B2D30" stroke-width="2.18182" stroke-linecap="round" stroke-linejoin="round"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M26.7587 27.5037H26.7681Z" fill="white"/>
+              <path d="M26.7587 27.5037H26.7681" stroke="#2B2D30" stroke-width="2.18182" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a class="header__btn_item desktop">
+            <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.5" y="58.5" width="58" height="58" rx="29" transform="rotate(-90 0.5 58.5)" stroke="#969696"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M28.6376 28.2773C28.7597 28.2662 28.893 28.2662 29.004 28.2773C31.6471 28.1885 33.7461 26.0229 33.7572 23.3576C33.7572 20.6368 31.5472 18.4268 28.8264 18.4268C26.0944 18.4268 23.8955 20.6368 23.8955 23.3576C23.8955 26.0229 25.9944 28.1885 28.6376 28.2773ZM23.4512 38.8947C20.7637 37.1067 20.7637 34.1749 23.4512 32.3758C26.5163 30.3435 31.5249 30.3435 34.5678 32.3758C37.2553 34.1638 37.2553 37.0956 34.5678 38.8947C31.5138 40.9381 26.5052 40.9381 23.4512 38.8947Z" fill="white"/>
+            </svg>
+          </a>
+        </div>
       </div>
     </header>
-    <section>
+    <main>
+      <section class="baner">
+        <div class="container">
+          <div class="baner__info_swiper swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide baner__info_slide">
+                <div class="baner__info_title">Покупка UI в Figma <br class="desktop">web-дизайна и мобильных приложений</div>
+                <div class="baner__info__container">
+                  <div class="baner__info__price">Купить: <span>500 ₽</span></div>
+                  <div class="baner__info__pages">Страниц: <span>1</span>  Стилей: <span>3</span></div>
+                </div>
+                <div class="baner__info__tag">#Слайдер   #Карточки товара   #Текстовый блок   #Короткий тег   #Баннер тег длинный в несколько слов #Короткий тег</div>
+                <div class="baner__info__btns">
+                  <div class="baner__info__btn desktop">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62" fill="none">
+                      <rect x="0.372085" y="0.372085" width="61.2558" height="61.2558" rx="30.6279" fill="#2B2D30" stroke="#969696" stroke-width="0.744171"/>
+                      <path d="M32.2134 23.0819L33.785 26.225C33.9993 26.6625 34.5708 27.0822 35.0529 27.1626L37.9014 27.6358C39.723 27.9394 40.1516 29.261 38.839 30.5647L36.6245 32.7791C36.2495 33.1542 36.0441 33.8774 36.1602 34.3953L36.7942 37.1367C37.2942 39.3065 36.1423 40.1459 34.2225 39.0118L31.5526 37.4313C31.0705 37.1456 30.2757 37.1456 29.7846 37.4313L27.1147 39.0118C25.2039 40.1459 24.0431 39.2976 24.5431 37.1367L25.1771 34.3953C25.2932 33.8774 25.0878 33.1542 24.7128 32.7791L22.4983 30.5647C21.1946 29.261 21.6143 27.9394 23.4359 27.6358L26.2843 27.1626C26.7576 27.0822 27.3291 26.6625 27.5434 26.225L29.1149 23.0819C29.9721 21.3764 31.3651 21.3764 32.2134 23.0819Z" fill="white"/>
+                    </svg>
+                  </div>
+                  <div class="baner__info__btn">
+                    <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="59" height="59" rx="29.5" fill="#E1E046"/>
+                      <path d="M23.833 21.9482V20.7595C23.833 18.0021 26.0512 15.2937 28.8086 15.0364C32.0929 14.7177 34.8626 17.3036 34.8626 20.5266V22.2178" stroke="#2B2D30" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M25.6717 39.5097H33.0247C37.9513 39.5097 38.8336 37.5366 39.091 35.1346L40.0101 27.7815C40.341 24.7913 39.4832 22.3525 34.2502 22.3525H24.4462C19.2133 22.3525 18.3554 24.7913 18.6863 27.7815L19.6054 35.1346C19.8628 37.5366 20.7451 39.5097 25.6717 39.5097Z" fill="#2B2D30"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M33.6314 27.2544H33.6424Z" fill="#2B2D30"/>
+                      <path d="M33.6314 27.2544H33.6424" stroke="#E1E046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0523 27.2544H25.0633Z" fill="#2B2D30"/>
+                      <path d="M25.0523 27.2544H25.0633" stroke="#E1E046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                  <div class="baner__info__btn">
+                    <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.5" y="0.5" width="58" height="58" rx="29" fill="#2B2D30" stroke="#969696"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M32.1497 23.2803C31.8568 22.9874 31.8568 22.5126 32.1497 22.2197C32.4426 21.9268 32.9174 21.9268 33.2103 22.2197L39.2803 28.2897C39.421 28.4303 39.5 28.6211 39.5 28.82C39.5 29.0189 39.421 29.2097 39.2803 29.3503L33.2103 35.4203C32.9174 35.7132 32.4426 35.7132 32.1497 35.4203C31.8568 35.1274 31.8568 34.6526 32.1497 34.3597L36.9393 29.5701H21.7501C21.3359 29.5701 21.0001 29.2343 21.0001 28.8201C21.0001 28.4059 21.3359 28.0701 21.7501 28.0701H36.9394L32.1497 23.2803Z" fill="white"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide baner__info_slide">
+                <div class="baner__info_title">Покупка UI в Figma <br class="desktop">web-дизайна и мобильных приложений</div>
+                <div class="baner__info__container">
+                  <div class="baner__info__price">Купить: <span>200 ₽</span></div>
+                  <div class="baner__info__pages">Страниц: <span>1</span>  Стилей: <span>3</span></div>
+                </div>
+                <div class="baner__info__tag">#Слайдер   #Карточки товара   #Текстовый блок   #Короткий тег   #Баннер тег длинный в несколько слов #Короткий тег</div>
+                <div class="baner__info__btns">
+                  <div class="baner__info__btn desktop">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62" fill="none">
+                      <rect x="0.372085" y="0.372085" width="61.2558" height="61.2558" rx="30.6279" fill="#2B2D30" stroke="#969696" stroke-width="0.744171"/>
+                      <path d="M32.2134 23.0819L33.785 26.225C33.9993 26.6625 34.5708 27.0822 35.0529 27.1626L37.9014 27.6358C39.723 27.9394 40.1516 29.261 38.839 30.5647L36.6245 32.7791C36.2495 33.1542 36.0441 33.8774 36.1602 34.3953L36.7942 37.1367C37.2942 39.3065 36.1423 40.1459 34.2225 39.0118L31.5526 37.4313C31.0705 37.1456 30.2757 37.1456 29.7846 37.4313L27.1147 39.0118C25.2039 40.1459 24.0431 39.2976 24.5431 37.1367L25.1771 34.3953C25.2932 33.8774 25.0878 33.1542 24.7128 32.7791L22.4983 30.5647C21.1946 29.261 21.6143 27.9394 23.4359 27.6358L26.2843 27.1626C26.7576 27.0822 27.3291 26.6625 27.5434 26.225L29.1149 23.0819C29.9721 21.3764 31.3651 21.3764 32.2134 23.0819Z" fill="white"/>
+                    </svg>
+                  </div>
+                  <div class="baner__info__btn">
+                    <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="59" height="59" rx="29.5" fill="#E1E046"/>
+                      <path d="M23.833 21.9482V20.7595C23.833 18.0021 26.0512 15.2937 28.8086 15.0364C32.0929 14.7177 34.8626 17.3036 34.8626 20.5266V22.2178" stroke="#2B2D30" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M25.6717 39.5097H33.0247C37.9513 39.5097 38.8336 37.5366 39.091 35.1346L40.0101 27.7815C40.341 24.7913 39.4832 22.3525 34.2502 22.3525H24.4462C19.2133 22.3525 18.3554 24.7913 18.6863 27.7815L19.6054 35.1346C19.8628 37.5366 20.7451 39.5097 25.6717 39.5097Z" fill="#2B2D30"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M33.6314 27.2544H33.6424Z" fill="#2B2D30"/>
+                      <path d="M33.6314 27.2544H33.6424" stroke="#E1E046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0523 27.2544H25.0633Z" fill="#2B2D30"/>
+                      <path d="M25.0523 27.2544H25.0633" stroke="#E1E046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                  <div class="baner__info__btn">
+                    <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.5" y="0.5" width="58" height="58" rx="29" fill="#2B2D30" stroke="#969696"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M32.1497 23.2803C31.8568 22.9874 31.8568 22.5126 32.1497 22.2197C32.4426 21.9268 32.9174 21.9268 33.2103 22.2197L39.2803 28.2897C39.421 28.4303 39.5 28.6211 39.5 28.82C39.5 29.0189 39.421 29.2097 39.2803 29.3503L33.2103 35.4203C32.9174 35.7132 32.4426 35.7132 32.1497 35.4203C31.8568 35.1274 31.8568 34.6526 32.1497 34.3597L36.9393 29.5701H21.7501C21.3359 29.5701 21.0001 29.2343 21.0001 28.8201C21.0001 28.4059 21.3359 28.0701 21.7501 28.0701H36.9394L32.1497 23.2803Z" fill="white"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide baner__info_slide">
+                <div class="baner__info_title">Покупка UI в Figma <br class="desktop">web-дизайна и мобильных приложений</div>
+                <div class="baner__info__container">
+                  <div class="baner__info__price">Купить: <span>300 ₽</span></div>
+                  <div class="baner__info__pages">Страниц: <span>1</span>  Стилей: <span>3</span></div>
+                </div>
+                <div class="baner__info__tag">#Слайдер   #Карточки товара   #Текстовый блок   #Короткий тег   #Баннер тег длинный в несколько слов #Короткий тег</div>
+                <div class="baner__info__btns">
+                  <div class="baner__info__btn desktop">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62" fill="none">
+                      <rect x="0.372085" y="0.372085" width="61.2558" height="61.2558" rx="30.6279" fill="#2B2D30" stroke="#969696" stroke-width="0.744171"/>
+                      <path d="M32.2134 23.0819L33.785 26.225C33.9993 26.6625 34.5708 27.0822 35.0529 27.1626L37.9014 27.6358C39.723 27.9394 40.1516 29.261 38.839 30.5647L36.6245 32.7791C36.2495 33.1542 36.0441 33.8774 36.1602 34.3953L36.7942 37.1367C37.2942 39.3065 36.1423 40.1459 34.2225 39.0118L31.5526 37.4313C31.0705 37.1456 30.2757 37.1456 29.7846 37.4313L27.1147 39.0118C25.2039 40.1459 24.0431 39.2976 24.5431 37.1367L25.1771 34.3953C25.2932 33.8774 25.0878 33.1542 24.7128 32.7791L22.4983 30.5647C21.1946 29.261 21.6143 27.9394 23.4359 27.6358L26.2843 27.1626C26.7576 27.0822 27.3291 26.6625 27.5434 26.225L29.1149 23.0819C29.9721 21.3764 31.3651 21.3764 32.2134 23.0819Z" fill="white"/>
+                    </svg>
+                  </div>
+                  <div class="baner__info__btn">
+                    <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="59" height="59" rx="29.5" fill="#E1E046"/>
+                      <path d="M23.833 21.9482V20.7595C23.833 18.0021 26.0512 15.2937 28.8086 15.0364C32.0929 14.7177 34.8626 17.3036 34.8626 20.5266V22.2178" stroke="#2B2D30" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M25.6717 39.5097H33.0247C37.9513 39.5097 38.8336 37.5366 39.091 35.1346L40.0101 27.7815C40.341 24.7913 39.4832 22.3525 34.2502 22.3525H24.4462C19.2133 22.3525 18.3554 24.7913 18.6863 27.7815L19.6054 35.1346C19.8628 37.5366 20.7451 39.5097 25.6717 39.5097Z" fill="#2B2D30"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M33.6314 27.2544H33.6424Z" fill="#2B2D30"/>
+                      <path d="M33.6314 27.2544H33.6424" stroke="#E1E046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0523 27.2544H25.0633Z" fill="#2B2D30"/>
+                      <path d="M25.0523 27.2544H25.0633" stroke="#E1E046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                  <div class="baner__info__btn">
+                    <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.5" y="0.5" width="58" height="58" rx="29" fill="#2B2D30" stroke="#969696"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M32.1497 23.2803C31.8568 22.9874 31.8568 22.5126 32.1497 22.2197C32.4426 21.9268 32.9174 21.9268 33.2103 22.2197L39.2803 28.2897C39.421 28.4303 39.5 28.6211 39.5 28.82C39.5 29.0189 39.421 29.2097 39.2803 29.3503L33.2103 35.4203C32.9174 35.7132 32.4426 35.7132 32.1497 35.4203C31.8568 35.1274 31.8568 34.6526 32.1497 34.3597L36.9393 29.5701H21.7501C21.3359 29.5701 21.0001 29.2343 21.0001 28.8201C21.0001 28.4059 21.3359 28.0701 21.7501 28.0701H36.9394L32.1497 23.2803Z" fill="white"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide baner__info_slide">
+                <div class="baner__info_title">Покупка UI в Figma <br class="desktop">web-дизайна и мобильных приложений</div>
+                <div class="baner__info__container">
+                  <div class="baner__info__price">Купить: <span>400 ₽</span></div>
+                  <div class="baner__info__pages">Страниц: <span>1</span>  Стилей: <span>3</span></div>
+                </div>
+                <div class="baner__info__tag">#Слайдер   #Карточки товара   #Текстовый блок   #Короткий тег   #Баннер тег длинный в несколько слов #Короткий тег</div>
+                <div class="baner__info__btns">
+                  <div class="baner__info__btn desktop">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62" fill="none">
+                      <rect x="0.372085" y="0.372085" width="61.2558" height="61.2558" rx="30.6279" fill="#2B2D30" stroke="#969696" stroke-width="0.744171"/>
+                      <path d="M32.2134 23.0819L33.785 26.225C33.9993 26.6625 34.5708 27.0822 35.0529 27.1626L37.9014 27.6358C39.723 27.9394 40.1516 29.261 38.839 30.5647L36.6245 32.7791C36.2495 33.1542 36.0441 33.8774 36.1602 34.3953L36.7942 37.1367C37.2942 39.3065 36.1423 40.1459 34.2225 39.0118L31.5526 37.4313C31.0705 37.1456 30.2757 37.1456 29.7846 37.4313L27.1147 39.0118C25.2039 40.1459 24.0431 39.2976 24.5431 37.1367L25.1771 34.3953C25.2932 33.8774 25.0878 33.1542 24.7128 32.7791L22.4983 30.5647C21.1946 29.261 21.6143 27.9394 23.4359 27.6358L26.2843 27.1626C26.7576 27.0822 27.3291 26.6625 27.5434 26.225L29.1149 23.0819C29.9721 21.3764 31.3651 21.3764 32.2134 23.0819Z" fill="white"/>
+                    </svg>
+                  </div>
+                  <div class="baner__info__btn">
+                    <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="59" height="59" rx="29.5" fill="#E1E046"/>
+                      <path d="M23.833 21.9482V20.7595C23.833 18.0021 26.0512 15.2937 28.8086 15.0364C32.0929 14.7177 34.8626 17.3036 34.8626 20.5266V22.2178" stroke="#2B2D30" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M25.6717 39.5097H33.0247C37.9513 39.5097 38.8336 37.5366 39.091 35.1346L40.0101 27.7815C40.341 24.7913 39.4832 22.3525 34.2502 22.3525H24.4462C19.2133 22.3525 18.3554 24.7913 18.6863 27.7815L19.6054 35.1346C19.8628 37.5366 20.7451 39.5097 25.6717 39.5097Z" fill="#2B2D30"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M33.6314 27.2544H33.6424Z" fill="#2B2D30"/>
+                      <path d="M33.6314 27.2544H33.6424" stroke="#E1E046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0523 27.2544H25.0633Z" fill="#2B2D30"/>
+                      <path d="M25.0523 27.2544H25.0633" stroke="#E1E046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                  <div class="baner__info__btn">
+                    <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.5" y="0.5" width="58" height="58" rx="29" fill="#2B2D30" stroke="#969696"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M32.1497 23.2803C31.8568 22.9874 31.8568 22.5126 32.1497 22.2197C32.4426 21.9268 32.9174 21.9268 33.2103 22.2197L39.2803 28.2897C39.421 28.4303 39.5 28.6211 39.5 28.82C39.5 29.0189 39.421 29.2097 39.2803 29.3503L33.2103 35.4203C32.9174 35.7132 32.4426 35.7132 32.1497 35.4203C31.8568 35.1274 31.8568 34.6526 32.1497 34.3597L36.9393 29.5701H21.7501C21.3359 29.5701 21.0001 29.2343 21.0001 28.8201C21.0001 28.4059 21.3359 28.0701 21.7501 28.0701H36.9394L32.1497 23.2803Z" fill="white"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide baner__info_slide">
+                <div class="baner__info_title">Покупка UI в Figma <br class="desktop">web-дизайна и мобильных приложений</div>
+                <div class="baner__info__container">
+                  <div class="baner__info__price">Купить: <span>500 ₽</span></div>
+                  <div class="baner__info__pages">Страниц: <span>1</span>  Стилей: <span>3</span></div>
+                </div>
+                <div class="baner__info__tag">#Слайдер   #Карточки товара   #Текстовый блок   #Короткий тег   #Баннер тег длинный в несколько слов #Короткий тег</div>
+                <div class="baner__info__btns">
+                  <div class="baner__info__btn desktop">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62" fill="none">
+                      <rect x="0.372085" y="0.372085" width="61.2558" height="61.2558" rx="30.6279" fill="#2B2D30" stroke="#969696" stroke-width="0.744171"/>
+                      <path d="M32.2134 23.0819L33.785 26.225C33.9993 26.6625 34.5708 27.0822 35.0529 27.1626L37.9014 27.6358C39.723 27.9394 40.1516 29.261 38.839 30.5647L36.6245 32.7791C36.2495 33.1542 36.0441 33.8774 36.1602 34.3953L36.7942 37.1367C37.2942 39.3065 36.1423 40.1459 34.2225 39.0118L31.5526 37.4313C31.0705 37.1456 30.2757 37.1456 29.7846 37.4313L27.1147 39.0118C25.2039 40.1459 24.0431 39.2976 24.5431 37.1367L25.1771 34.3953C25.2932 33.8774 25.0878 33.1542 24.7128 32.7791L22.4983 30.5647C21.1946 29.261 21.6143 27.9394 23.4359 27.6358L26.2843 27.1626C26.7576 27.0822 27.3291 26.6625 27.5434 26.225L29.1149 23.0819C29.9721 21.3764 31.3651 21.3764 32.2134 23.0819Z" fill="white"/>
+                    </svg>
+                  </div>
+                  <div class="baner__info__btn">
+                    <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="59" height="59" rx="29.5" fill="#E1E046"/>
+                      <path d="M23.833 21.9482V20.7595C23.833 18.0021 26.0512 15.2937 28.8086 15.0364C32.0929 14.7177 34.8626 17.3036 34.8626 20.5266V22.2178" stroke="#2B2D30" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M25.6717 39.5097H33.0247C37.9513 39.5097 38.8336 37.5366 39.091 35.1346L40.0101 27.7815C40.341 24.7913 39.4832 22.3525 34.2502 22.3525H24.4462C19.2133 22.3525 18.3554 24.7913 18.6863 27.7815L19.6054 35.1346C19.8628 37.5366 20.7451 39.5097 25.6717 39.5097Z" fill="#2B2D30"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M33.6314 27.2544H33.6424Z" fill="#2B2D30"/>
+                      <path d="M33.6314 27.2544H33.6424" stroke="#E1E046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0523 27.2544H25.0633Z" fill="#2B2D30"/>
+                      <path d="M25.0523 27.2544H25.0633" stroke="#E1E046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                  <div class="baner__info__btn">
+                    <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.5" y="0.5" width="58" height="58" rx="29" fill="#2B2D30" stroke="#969696"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M32.1497 23.2803C31.8568 22.9874 31.8568 22.5126 32.1497 22.2197C32.4426 21.9268 32.9174 21.9268 33.2103 22.2197L39.2803 28.2897C39.421 28.4303 39.5 28.6211 39.5 28.82C39.5 29.0189 39.421 29.2097 39.2803 29.3503L33.2103 35.4203C32.9174 35.7132 32.4426 35.7132 32.1497 35.4203C31.8568 35.1274 31.8568 34.6526 32.1497 34.3597L36.9393 29.5701H21.7501C21.3359 29.5701 21.0001 29.2343 21.0001 28.8201C21.0001 28.4059 21.3359 28.0701 21.7501 28.0701H36.9394L32.1497 23.2803Z" fill="white"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="baner__container">
+            <div class="baner__small_swiper swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./assets/images/baner1.webp" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/baner2.webp" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/baner3.webp" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/baner1.webp" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/baner2.webp" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="baner__big_swiper swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./assets/images/baner1.webp" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/baner2.webp" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/baner3.webp" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/baner1.webp" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/baner2.webp" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="baner__big_tab"></div>
+          <div class="baner__big_pagination mobile">
+            <div class="baner__big_left">
+              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.10786 0.889721C5.31139 0.686185 5.31139 0.356188 5.10786 0.152652C4.90432 -0.050884 4.57432 -0.050884 4.37079 0.152652L0.152652 4.37079C0.0549105 4.46853 0 4.60109 0 4.73932C0 4.87755 0.0549106 5.01012 0.152652 5.10786L4.37079 9.32599C4.57432 9.52953 4.90432 9.52953 5.10786 9.32599C5.31139 9.12246 5.31139 8.79246 5.10786 8.58892L1.77908 5.26015H12.3348C12.6226 5.26015 12.856 5.0268 12.856 4.73896C12.856 4.45112 12.6226 4.21777 12.3348 4.21777H1.7798L5.10786 0.889721Z" fill="white"/>
+              </svg>
+            </div>
+            <div class="baner__big_number">
+              <span class="baner__big_number_real"></span>
+              <span class="baner__big_number_all"></span>
+            </div>
+            <div class="baner__big_right">
+              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.7398 0.889721C7.53626 0.686185 7.53626 0.356188 7.7398 0.152652C7.94334 -0.050884 8.27333 -0.050884 8.47687 0.152652L12.695 4.37079C12.7927 4.46853 12.8477 4.60109 12.8477 4.73932C12.8477 4.87755 12.7927 5.01012 12.695 5.10786L8.47687 9.32599C8.27333 9.52953 7.94334 9.52953 7.7398 9.32599C7.53626 9.12246 7.53626 8.79246 7.7398 8.58892L11.0686 5.26015H0.513858C0.226014 5.26015 -0.00732899 5.0268 -0.00732899 4.73896C-0.00732899 4.45112 0.226014 4.21777 0.513858 4.21777H11.0679L7.7398 0.889721Z" fill="white"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
       <div class="container">
-        Главная Каталог  ВиДео-оБзоры
+        
       </div>
-    </section>
+    </footer>
   </body>
 </html>
