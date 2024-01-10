@@ -1,3 +1,62 @@
 .header {
-    
+    &_black {
+        color: #FFF;
+    }
+    .container {
+        display: flex;
+        // align-items: center;
+        justify-content: space-between;
+    }
+    &_logo {
+        width: 35.9rem;
+        height: 22.8rem;
+    }
+    &__menu {
+        margin-top: 6.8rem;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        display: flex;
+        width: 82.1rem;
+        justify-content: space-evenly;
+
+        &_item {
+            &.active {
+                position: relative;
+
+                &::before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    width: 2.7rem;
+                    height: 0.3rem;
+                    border-radius: 5px;
+                    background: #E1E046;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    bottom: -0.8rem;
+                }
+            }
+        }
+    }
+    &__btns {
+        margin-top: 5rem;
+        display: flex;
+        gap: 0.8rem;
+    }
+    &__btn {
+        &_main {
+            width: 5.9rem;
+            height: 5.9rem;
+        }
+        &_item {
+            svg {
+                width: 5.9rem;
+                height: 5.9rem;
+            }
+        }
+    }
 }
