@@ -1,0 +1,18 @@
+.filtres {
+    margin-bottom: 10.5rem;
+
+    &__row {
+        display: flex;
+        align-items: center;
+        column-gap: 4.8rem;
+    }
+
+    @media (max-width: 48em) {
+        margin-bottom: 12rem;
+
+        &__row {
+            flex-wrap: wrap;
+            row-gap: 5rem;
+        }
+    }
+}
