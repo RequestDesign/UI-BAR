@@ -47,7 +47,13 @@ $(function () {
         }, 500)
       } else {
         $('.statia-aside.left').addClass('hide');
+        $('.statia-aside.left').hide();
       }
+    });
+  }
+  if ($(window).width() < 769) { 
+    $('.statia-aside__close').on('click', function () {
+      $(this).closest('.statia-aside').slideUp();
     });
   }
 });
