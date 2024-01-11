@@ -18,6 +18,20 @@ body {
 		}
 	}
 }
+.text {
+	font-family: 'Euclid Circular A';
+	font-size: 1.8rem;
+	font-weight: 300;
+	line-height: normal;
+}
+
+.subtitle {
+	font-family: 'Euclid Circular A';
+	font-size: 1.8rem;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: uppercase;
+}
 
 .btn-link {
 	display: flex;
@@ -26,10 +40,10 @@ body {
 	font-weight: 500;
 	line-height: normal;
 	color: #fff;
+	gap: 1.4rem;
 	&__arr {
 		width: 1.8rem;
 		height: 1.3rem;
-		margin-left: 1.4rem;
 		& svg {
 			width: 100%;
 			height: 100%;
@@ -37,6 +51,23 @@ body {
 		}
 	}
 }
+
+.social {
+  &__links {
+    display: flex;
+    gap: 2.5rem;
+  }
+  &__link {
+    width: 4.8rem;
+    height: 4.8rem;
+    & svg {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
 .mobile {
 	display: none;
 }
@@ -50,10 +81,18 @@ body {
 
 	.btn-link {
 		font-size: 3rem;
+		gap: 3rem;
 		&__arr {
 			width: 2.4rem;
 			height: 1.8rem;
-			margin-left: 3rem;
 		}
+	}
+
+	.text {
+		font-size: 3rem;
+	}
+	
+	.subtitle {
+		font-size: 3rem;
 	}
 }

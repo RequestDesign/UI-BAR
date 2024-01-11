@@ -55,11 +55,7 @@
     }
     &__tags {
       width: 88rem;
-      font-family: 'Euclid Circular A';
-      font-size: 1.8rem;
-      font-style: normal;
       font-weight: 400;
-      line-height: normal;
       color: #fff;
       &-wrap {
         width: 100%;
@@ -70,10 +66,6 @@
     &__author {
       width: fit-content;
       text-align: right;
-      font-family: 'Euclid Circular A';
-      font-size: 1.8rem;
-      font-weight: 400;
-      line-height: normal;
       color: #fff;
       margin-left: auto;
       & span {
@@ -132,10 +124,6 @@
       &-text {
         width: 30.2rem;
         color: #FFF;
-        font-family: 'Euclid Circular A';
-        font-size: 1.8rem;
-        font-weight: 300;
-        line-height: normal;
       }
 		}
 }
