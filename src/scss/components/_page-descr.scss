@@ -1,0 +1,140 @@
+.page-descr {
+    margin-bottom: 8rem;
+
+    &__container {
+        position: relative;
+    }
+
+    &__row {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        .page-descr__column {
+            display: flex;
+            flex-direction: column;
+
+            &:first-child {
+                row-gap: 10.2rem;
+            }
+
+            &:nth-child(2) {
+                row-gap: 10.4rem;
+            }
+        }
+    }
+
+    &.upload {
+        .page-descr__column {
+            &:nth-child(2) {
+                row-gap: 8.8rem;
+            }
+        }
+    }
+
+    &__text {
+        font-size: 1.8rem;
+        font-weight: 300;
+        line-height: normal;
+        padding-top: 3.5rem;
+    }
+
+    &__title {
+        font-size: 6rem;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    &__lines {
+        position: absolute;
+        left: 0;
+        top: 11.7rem;
+        width: 100%;
+        height: 0.4rem;
+        background-color: $black;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: -0.5rem;
+            left: 0;
+            width: 100%;
+            height: 0.1rem;
+            background-color: $black;
+        }
+    }
+
+    &__subtitle {
+        font-size: 3rem;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    &__projects {
+        text-align: right;
+        font-size: 1.8rem;
+        font-weight: 300;
+
+        span {
+            font-weight: 600;
+        }
+    }
+
+    @media (max-width: 48em) {
+        margin-bottom: 12rem;
+
+        &__row {
+            flex-direction: column;
+            row-gap: 10rem;
+
+            .page-descr__column {
+                flex-direction: column-reverse;
+
+                &:first-child {
+                    row-gap: 2.4rem;
+                }
+
+                &:nth-child(2) {
+                    flex-direction: row-reverse;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 100%;
+
+                    &.projects-bottom {
+                        flex-direction: column;
+                        align-items: flex-end;
+                        row-gap: 3rem;
+                    }
+                }
+            }
+        }
+
+        &__subtitle {
+            font-size: 4rem;
+        }
+
+        &__text {
+            padding: 0;
+            font-size: 3rem;
+        }
+
+        &__title {
+            font-size: 12rem;
+        }
+
+        &__lines {
+            width: 69.6rem;
+            left: 4.2rem;
+            top: 20.2rem;
+        }
+
+        &__projects {
+            font-size: 3rem;
+            align-self: flex-end;
+            padding-bottom: 3.2rem;
+            text-align: left;
+        }
+    }
+}

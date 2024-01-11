@@ -1,0 +1,126 @@
+.author-descr {
+    margin-bottom: 8rem;
+
+    &__container {
+        position: relative;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .author-descr__column {
+            display: flex;
+            flex-direction: column;
+
+            &:first-child {
+                row-gap: 9.4rem;
+            }
+
+            &:nth-child(2) {
+                align-items: flex-end;
+                row-gap: 7.4rem;
+            }
+        }
+    }
+
+    &__title {
+        padding-top: 2.3rem;
+        font-size: 6rem;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    &__logo {
+        width: 10.9rem;
+        height: 10.9rem;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__projects {
+        &-count {
+            font-size: 1.8rem;
+            font-weight: 300;
+
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__name {
+        text-align: right;
+        font-size: 3rem;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    .page-descr__lines {
+        top: 14rem;
+    }
+
+    @media (max-width: 48em) {
+        margin-bottom: 22rem;
+
+        &__row {
+            flex-direction: column-reverse;
+            row-gap: 5.4rem;
+
+            .author-descr__column {
+                width: 100%;
+
+                &:first-child {
+                    row-gap: 10.4rem;
+                }
+
+                &:nth-child(2) {
+                    flex-direction: row-reverse;
+                    justify-content: space-between;
+                }
+            }
+        }
+
+        &__name {
+            font-size: 4rem;
+            width: 34.6rem;
+        }
+
+        &__logo {
+            width: 30.2rem;
+            height: 30.2rem;
+        }
+
+        &__title {
+            padding: 0;
+            text-align: right;
+            font-size: 12rem;
+        }
+
+        &__projects {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            &-count {
+                font-size: 3rem;
+            }
+
+            &-buy {
+                width: 34.8rem;
+                text-align: right;
+                font-size: 3rem;
+                font-weight: 500;
+            }
+        }
+
+        .page-descr__lines {
+            top: 56.8rem;
+        }
+    }
+}
