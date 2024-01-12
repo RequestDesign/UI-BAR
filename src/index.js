@@ -8,7 +8,3 @@ import "swiper/css/mousewheel";
 import "./js/components/main-a";
 import "./js/components/baner";
 import "./js/components/lkChangingBlocks";
-import "./js/components/lkChangingBlocks";
-import "./js/components/baner";
-import "./js/components/lkChangingBlocks";
-import "./js/components/baner";
