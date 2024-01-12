@@ -1,0 +1,69 @@
+.basket {
+  margin-bottom: 16rem;
+		&__item {
+      padding: 3.6rem 0;
+      display: flex;
+      gap: 6rem;
+      border-bottom: 0.1rem solid #969696;
+      &:first-child {
+        border-top: 0.1rem solid #969696;
+      }
+      &-content {
+
+      }
+		}
+		&__img {
+      width: 48.5rem;
+      height: 29.5rem;
+      & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+		}
+		&__cost {
+      margin-bottom: 2.5rem;
+      & span {
+        font-size: 3.5rem;
+        font-weight: 600;
+      }
+		}
+		&__desc {
+      &-wrap {
+        display: flex;
+        margin-bottom: 9.4rem;
+        gap: 4rem;
+      }
+      & span {
+        font-weight: 700;
+      }
+		}
+		&__btn {
+      color: #969696;
+		}
+
+		&__bottom {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 3.9rem;
+      .btn-link {
+        color: #2B2D30;
+        gap: 2.9rem;
+        &__arr-circle {
+          background-color: #2B2D30;
+        }
+      }
+		}
+    &__total {
+      color: #2B2D30;
+      font-family: 'Euclid Circular A';
+      font-size: 3rem;
+      font-weight: 300;
+      line-height: normal;
+      & span {
+        font-weight: 700;
+      }
+    }
+}
+
