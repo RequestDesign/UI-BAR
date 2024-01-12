@@ -83,6 +83,11 @@
     &__small_swiper {
         width: 26.5rem;
         height: 51.5rem;
+        flex: none;
+
+        .swiper-slide {
+            width: 26.5rem;
+        }
 
         img {
             width: 100%;
@@ -91,7 +96,7 @@
         }
     }
     &__big_swiper {
-        flex: 1;
+        width: calc(100% - 29.7rem);
         height: 71.9rem;
 
         img {
