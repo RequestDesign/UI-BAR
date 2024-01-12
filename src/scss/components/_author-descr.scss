@@ -1,6 +1,16 @@
 .author-descr {
     margin-bottom: 8rem;
 
+    &.lk {
+        .author-descr__row {
+            .author-descr__column {
+                &:first-child {
+                    row-gap: 8.8rem;
+                }
+            }
+        }
+    }
+
     &__container {
         position: relative;
     }
@@ -61,12 +71,45 @@
         text-transform: uppercase;
     }
 
+    &__info {
+        .author-descr__name {
+            margin-bottom: 0.9rem;
+        }
+
+        .author-descr__projects-count {
+            text-align: right;
+        }
+    }
+
     .page-descr__lines {
         top: 14rem;
     }
 
     @media (max-width: 48em) {
         margin-bottom: 22rem;
+
+        &.lk {
+            .author-descr__row {
+                .author-descr__column {
+                    &:first-child {
+                        row-gap: 13.4rem;
+                    }
+                }
+
+                .author-descr__projects {
+                    flex-direction: row-reverse;
+                    align-items: center;
+
+                    &-count {
+                        width: 20rem;
+                    }
+                }
+
+                .author-descr__projects-buy {
+                    display: none;
+                }
+            }
+        }
 
         &__row {
             flex-direction: column-reverse;

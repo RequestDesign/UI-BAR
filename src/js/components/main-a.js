@@ -32,11 +32,13 @@ $(function () {
   if ($(window).width() > 768) {
     $('.statia-aside.modal').hide();
 
-    setTimeout(function () {
-      $('.statia-aside.modal').show();
-      $('.statia-aside.modal').addClass('active');
-      openModal();
-    }, 6000);
+    if($('.statia-aside.modal').length) {
+      setTimeout(function () {
+        $('.statia-aside.modal').show();
+        $('.statia-aside.modal').addClass('active');
+        openModal();
+      }, 6000);
+    }
 
     $('.statia-aside__close').on('click', function () {
       if ($('.statia-aside.modal').is(":visible")) {

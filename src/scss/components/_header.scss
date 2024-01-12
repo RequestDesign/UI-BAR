@@ -1,6 +1,31 @@
 .header {
-    &_black {
+    &.header_black {
         color: #FFF;
+
+        .header_logo_white {
+            display: none;
+        }
+        .header_logo_black {
+            display: block;
+        }
+        .header__menu_item {
+            &::before {
+                background: #E1E046;
+            }
+        }
+        .header__btn_item {
+            svg {
+                .change-stroke {
+                    stroke: #FFFFFF;
+                }
+                .change-fill {
+                    fill: #FFFFFF;
+                }
+            }
+        }
+    }
+    .header_logo_black {
+        display: none;
     }
     .container {
         display: flex;
@@ -33,7 +58,7 @@
                     width: 2.7rem;
                     height: 0.3rem;
                     border-radius: 5px;
-                    background: #E1E046;
+                    background: #F1000E;
                     left: 0;
                     right: 0;
                     margin: auto;
@@ -56,6 +81,13 @@
             svg {
                 width: 5.9rem;
                 height: 5.9rem;
+
+                .change-stroke {
+                    stroke: #2B2D30;
+                }
+                .change-fill {
+                    fill: #2B2D30;
+                }
             }
         }
     }
@@ -63,8 +95,23 @@
 
 @media (max-width: 48em) {
     .header {
-        &_black {
-            color: #FFF;
+        &.header_black {
+            .header__burger {
+                span {
+                    background: #FFF;
+                }
+            }
+            .header_logo_black {
+                opacity: 1;
+            }
+        }
+        .header_logo_white {
+            transition: opacity 0.5s ease-in-out;
+            width: 50.9rem;
+        }
+        .header_logo_black {
+            display: block;
+            opacity: 0;
         }
         .container {
             display: flex;
@@ -72,6 +119,7 @@
             justify-content: space-between;
 
             &.active {
+                color: #FFF;
                 .header__burger span {
 					&:nth-child(1) {
 						transform: rotate(45deg);
@@ -93,6 +141,17 @@
                 .header__box {
 					transform: translateY(0);
 				}
+                .header_logo_black {
+                    opacity: 1;
+                }
+                .header_logo_white {
+                    opacity: 0;
+                }
+                .header__burger {
+                    span {
+                        background: #FFF;
+                    }
+                }
             }
         }
         &__burger {
@@ -106,7 +165,7 @@
             margin-right: 2rem;
 
             span {
-                background: #ffffff;
+                background: #2B2D30;
                 transition: 0.25s ease-in-out;
                 position: absolute;
                 transform: rotate(0deg);
@@ -130,8 +189,11 @@
         &_logo {
             width: 42.9rem;
             height: 32.8rem;
-            position: relative;
+            position: absolute;
             z-index: 5;
+            margin: auto;
+            left: 0;
+            right: 0;
         }
         &__menu {
             margin-top: 0;
