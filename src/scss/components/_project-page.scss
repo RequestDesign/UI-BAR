@@ -1,5 +1,5 @@
 .project-page {
-  background: #2B2D30;
+  background: $black;
   padding-top: 3.5rem;
   padding-bottom: 8.1rem;
 		&__top {
@@ -16,7 +16,7 @@
         font-size: 3rem;
         font-weight: 300;
         line-height: normal;
-        color: #fff;
+        color: $white;
         margin-right: 1.5rem;
         & span {
           font-weight: 700;
@@ -34,10 +34,10 @@
       font-size: 1.8rem;
       font-weight: 600;
       line-height: normal;
-      color: #fff;
+      color: $white;
       margin-bottom: 2.6rem;
       & span {
-        color: #E1E046;
+        color: $yellow;
       }
     }
     &__btns {
@@ -57,7 +57,7 @@
     &__tags {
       width: 88rem;
       font-weight: 400;
-      color: #fff;
+      color: $white;
       &-wrap {
         width: 100%;
         display: flex;
@@ -67,7 +67,7 @@
     &__author {
       width: fit-content;
       text-align: right;
-      color: #fff;
+      color: $white;
       margin-left: auto;
       & span {
         font-weight: 700;
@@ -113,7 +113,7 @@
         height: 66rem;
       }
       &-title {
-        color: #FFF;
+        color: $white;
         width: fit-content;
         margin-right: 4rem;
         font-family: 'Euclid Circular A';
@@ -124,7 +124,7 @@
       }
       &-text {
         width: fit-content;
-        color: #FFF;
+        color: $white;
       }
 		}
 }
@@ -162,7 +162,7 @@
         width: 100%;
         font-size: 3rem;
         line-height: 2.5rem;
-        color: #fff;
+        color: $white;
         &-wrap {
           width: 100%;
           gap: 4rem;
