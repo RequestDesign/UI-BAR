@@ -66,6 +66,25 @@ $gray: #969696;
     }
 }
 
+.btn-link {
+    display: flex;
+    align-items: center;
+    column-gap: 1.7rem;
+
+    span {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    @media (max-width: 48em) {
+        column-gap: 2.23rem;
+
+        span {
+            font-size: 3rem;
+        }
+    }
+}
+
 .checkbox {
     input {
         display: none;
