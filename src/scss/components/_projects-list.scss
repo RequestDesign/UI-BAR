@@ -126,6 +126,7 @@
         }
 
         &-btn {
+            cursor: pointer;
             &.black {
                 rect {
                     fill: $black;

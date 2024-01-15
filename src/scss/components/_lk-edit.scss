@@ -58,5 +58,11 @@
       margin-bottom: 4rem;
       border-bottom: 0.2rem solid $gray;
     }
+    .btn-link {
+      display: flex;
+      align-items: center;
+      gap: 2.2rem;
+      margin-top: 12rem;
+    }
   }
 }

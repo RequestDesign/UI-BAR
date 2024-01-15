@@ -80,7 +80,7 @@
 @media (max-width: 48em) {
     .footer {
         padding: 12rem 0 7rem;
-        border-top: none;
+        border-top: 0.2rem solid #969696;
     
         &__top {
             display: flex;
