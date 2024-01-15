@@ -165,3 +165,29 @@
         }
     }
 }
+@media (max-width: 48em) {
+    .posts {
+        .projects-list__head {
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+            .projects-list__head-column {
+                width: 100%;
+            }
+            .projects-list__head-subtitle {
+                width: 100%;
+            }
+            .projects-list__head-title {
+                margin-left: auto;
+            }
+        }
+        .btn-link {
+            display: flex;
+            align-items: center;
+            width: fit-content;
+            margin-left: auto;
+            margin-top: 7rem;
+        }
+    }
+
+}

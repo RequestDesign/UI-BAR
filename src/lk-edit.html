@@ -6,7 +6,73 @@
   <title>Document</title>
 </head>
 <body>
+  <include src="./components/header.html"></include>
   <main>
+    <section class="author-descr lk lk-main">
+       <div class="author-descr__container container">
+          <div class="author-descr__row">
+             <div class="author-descr__column">
+                <div class="author-descr__title">author</div>
+                <div class="author-descr__projects">
+                   <a href="#" class="author-descr__link btn-link desktop">
+                      <span>Сохранить</span>
+                      <div class="btn-arrow">
+                        <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect width="59" height="59" rx="29.5" fill="#E1E046"/>
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M30.1252 23.073C29.7251 22.9658 29.4876 22.5546 29.5948 22.1545C29.7021 21.7544 30.1133 21.5169 30.5134 21.6241L38.8052 23.8459C38.9973 23.8974 39.1611 24.0231 39.2606 24.1954C39.36 24.3676 39.387 24.5723 39.3355 24.7645L37.1137 33.0562C37.0065 33.4563 36.5953 33.6938 36.1952 33.5866C35.7951 33.4794 35.5576 33.0681 35.6648 32.668L37.4178 26.1258L24.2645 33.7199C23.9058 33.927 23.4471 33.8041 23.24 33.4454C23.0329 33.0867 23.1558 32.628 23.5145 32.4209L36.6686 24.8263L30.1252 23.073Z" fill="#2B2D30"/>
+                        </svg>
+                      </div>
+                   </a>
+                   <div class="author-descr__settings_list mobile">
+                     <div class="author-descr__settings_item">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" viewBox="0 0 19 14" fill="none">
+                         <path fill-rule="evenodd" clip-rule="evenodd" d="M7.35033 1.28033C7.64322 0.987437 7.64322 0.512563 7.35033 0.21967C7.05744 -0.0732233 6.58256 -0.0732233 6.28967 0.21967L0.21967 6.28967C0.0790176 6.43032 0 6.62109 0 6.82C0 7.01891 0.0790176 7.20968 0.21967 7.35033L6.28967 13.4203C6.58256 13.7132 7.05744 13.7132 7.35033 13.4203C7.64322 13.1274 7.64322 12.6526 7.35033 12.3597L2.56073 7.57007H17.7499C18.1641 7.57007 18.4999 7.23428 18.4999 6.82007C18.4999 6.40585 18.1641 6.07007 17.7499 6.07007H2.56059L7.35033 1.28033Z" fill="#2B2D30"/>
+                       </svg>
+                       <span>Загрузить другое фото</span>
+                     </div>
+                     <div class="author-descr__settings_item">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" viewBox="0 0 19 14" fill="none">
+                         <path fill-rule="evenodd" clip-rule="evenodd" d="M7.35033 1.28033C7.64322 0.987437 7.64322 0.512563 7.35033 0.21967C7.05744 -0.0732233 6.58256 -0.0732233 6.28967 0.21967L0.21967 6.28967C0.0790176 6.43032 0 6.62109 0 6.82C0 7.01891 0.0790176 7.20968 0.21967 7.35033L6.28967 13.4203C6.58256 13.7132 7.05744 13.7132 7.35033 13.4203C7.64322 13.1274 7.64322 12.6526 7.35033 12.3597L2.56073 7.57007H17.7499C18.1641 7.57007 18.4999 7.23428 18.4999 6.82007C18.4999 6.40585 18.1641 6.07007 17.7499 6.07007H2.56059L7.35033 1.28033Z" fill="#2B2D30"/>
+                       </svg>
+                       <span>Удалить фото</span>
+                     </div>
+                   </div>
+                   <div class="author-descr__projects-count mobile">
+                     <span class="desktop">Загружено</span> проектов: <span>4</span>
+                   </div>
+                </div>
+             </div>
+             <div class="author-descr__column">
+                <div class="author-descr__settings">
+                  <div class="author-descr__settings_list desktop">
+                    <div class="author-descr__settings_item">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" viewBox="0 0 19 14" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.35033 1.28033C7.64322 0.987437 7.64322 0.512563 7.35033 0.21967C7.05744 -0.0732233 6.58256 -0.0732233 6.28967 0.21967L0.21967 6.28967C0.0790176 6.43032 0 6.62109 0 6.82C0 7.01891 0.0790176 7.20968 0.21967 7.35033L6.28967 13.4203C6.58256 13.7132 7.05744 13.7132 7.35033 13.4203C7.64322 13.1274 7.64322 12.6526 7.35033 12.3597L2.56073 7.57007H17.7499C18.1641 7.57007 18.4999 7.23428 18.4999 6.82007C18.4999 6.40585 18.1641 6.07007 17.7499 6.07007H2.56059L7.35033 1.28033Z" fill="#2B2D30"/>
+                      </svg>
+                      <span>Загрузить другое фото</span>
+                    </div>
+                    <div class="author-descr__settings_item">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" viewBox="0 0 19 14" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.35033 1.28033C7.64322 0.987437 7.64322 0.512563 7.35033 0.21967C7.05744 -0.0732233 6.58256 -0.0732233 6.28967 0.21967L0.21967 6.28967C0.0790176 6.43032 0 6.62109 0 6.82C0 7.01891 0.0790176 7.20968 0.21967 7.35033L6.28967 13.4203C6.58256 13.7132 7.05744 13.7132 7.35033 13.4203C7.64322 13.1274 7.64322 12.6526 7.35033 12.3597L2.56073 7.57007H17.7499C18.1641 7.57007 18.4999 7.23428 18.4999 6.82007C18.4999 6.40585 18.1641 6.07007 17.7499 6.07007H2.56059L7.35033 1.28033Z" fill="#2B2D30"/>
+                      </svg>
+                      <span>Удалить фото</span>
+                    </div>
+                  </div>
+                  <div class="author-descr__logo">
+                     <img src="./assets/images/author/logo.png" alt="" />
+                  </div>
+                </div>
+                <div class="author-descr__info">
+                   <div class="author-descr__name">Осипова Анна</div>
+                   <div class="author-descr__projects-count desktop">
+                      Загружено проектов: <span>4</span>
+                   </div>
+                </div>
+             </div>
+             <div class="page-descr__lines"></div>
+          </div>
+       </div>
+    </section>
     <section class="lk-edit">
       <div class="container">
         <div class="lk-edit__form">
@@ -21,8 +87,19 @@
               <input class="lk-edit__input" type="password" name="newPass" placeholder="Новый пароль" required>
           </div>
         </div>
+        
+        <a href="#" class="author-descr__link btn-link mobile">
+          <span>Сохранить</span>
+          <div class="btn-arrow">
+            <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="59" height="59" rx="29.5" fill="#E1E046"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M30.1252 23.073C29.7251 22.9658 29.4876 22.5546 29.5948 22.1545C29.7021 21.7544 30.1133 21.5169 30.5134 21.6241L38.8052 23.8459C38.9973 23.8974 39.1611 24.0231 39.2606 24.1954C39.36 24.3676 39.387 24.5723 39.3355 24.7645L37.1137 33.0562C37.0065 33.4563 36.5953 33.6938 36.1952 33.5866C35.7951 33.4794 35.5576 33.0681 35.6648 32.668L37.4178 26.1258L24.2645 33.7199C23.9058 33.927 23.4471 33.8041 23.24 33.4454C23.0329 33.0867 23.1558 32.628 23.5145 32.4209L36.6686 24.8263L30.1252 23.073Z" fill="#2B2D30"/>
+            </svg>
+          </div>
+       </a>
       </div>
     </section>
   </main>
+  <include src="./components/footer.html"></include>
 </body>
 </html>

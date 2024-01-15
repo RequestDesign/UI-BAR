@@ -63,3 +63,7 @@ if($('.baner').length) {
         baner__info_swiper.slideTo(this.activeIndex, 2000);
     });
 }
+
+$('.like').on('click', function(){
+    $(this).toggleClass('black')
+})

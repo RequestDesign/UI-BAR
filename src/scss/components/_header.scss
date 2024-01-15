@@ -247,7 +247,10 @@
 			padding: 28rem 4.2rem 5rem;
 			transition: transform 0.75s ease-in-out;
             z-index: 3;
-            overflow: auto;
+
+            &s {
+                overflow: auto;
+            }
 
             &_title {
                 color: #969696;

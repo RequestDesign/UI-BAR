@@ -88,6 +88,13 @@
             .page-descr__column {
                 flex-direction: column-reverse;
 
+                &_row {
+                    flex-direction: row-reverse;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 100%;
+                }
+
                 &:first-child {
                     row-gap: 2.4rem;
                 }
@@ -124,6 +131,10 @@
             width: 69.6rem;
             left: 4.2rem;
             top: 20.2rem;
+
+            &_shop {
+                top: 18.2rem;
+            }
         }
 
         &__projects {
