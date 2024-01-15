@@ -1,6 +1,4 @@
 .author-descr {
-    margin-bottom: 8rem;
-
     &.lk {
         .author-descr__row {
             .author-descr__column {
@@ -86,8 +84,6 @@
     }
 
     @media (max-width: 48em) {
-        margin-bottom: 22rem;
-
         &.lk {
             .author-descr__row {
                 .author-descr__column {

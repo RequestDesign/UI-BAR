@@ -1,6 +1,4 @@
 .page-descr {
-    margin-bottom: 8rem;
-
     &__container {
         position: relative;
     }
@@ -83,8 +81,6 @@
     }
 
     @media (max-width: 48em) {
-        margin-bottom: 12rem;
-
         &__row {
             flex-direction: column;
             row-gap: 10rem;

@@ -2,6 +2,10 @@
     &__block {
         display: none;
 
+        &-content {
+            padding-top: 7.8rem;
+        }
+
         &.active {
             display: block;
         }

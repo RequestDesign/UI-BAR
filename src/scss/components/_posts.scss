@@ -1,5 +1,5 @@
 .posts {
-    margin-bottom: 12.6rem;
+    padding: 8rem 0 12rem 0;
 
     &__list {
         display: flex;
@@ -109,6 +109,8 @@
     }
 
     @media (max-width: 48em) {
+        padding-top: 16rem;
+
         &__item {
             padding-bottom: 4rem;
 
