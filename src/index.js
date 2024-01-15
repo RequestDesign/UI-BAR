@@ -5,5 +5,6 @@ import { example } from "./js/utils/constants";
 import 'swiper/css';
 import "swiper/css/bundle";
 import "swiper/css/mousewheel";
+import "./js/pages/adding";
 import "./js/components/main-a";
 import "./js/components/baner";

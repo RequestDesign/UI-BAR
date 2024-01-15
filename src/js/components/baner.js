@@ -34,30 +34,32 @@ const baner__small_swiper = new Swiper('.baner__small_swiper', {
         },
     },
 });
-const fraction = document.querySelector(".baner__big_number_real");
-const fractionall = document.querySelector(".baner__big_number_all");
-const slideCount = $('.baner__big_swiper').find('.swiper-slide').length;
-fraction.textContent = `1`;
-fractionall.textContent = slideCount;
-const baner__big_swiper = new Swiper('.baner__big_swiper', {
-    modules: [Pagination, Thumbs, Navigation],
-    thumbs: {
-        swiper: baner__small_swiper,
-    },
-    pagination: {
-        el: ".baner__big_tab",
-    },
-    navigation: {
-        nextEl: ".baner__big_right",
-        prevEl: ".baner__big_left",
-    },
-    on: {
-        slideChange: () => {
-            fraction.textContent = baner__big_swiper.realIndex + 1;
+if($('.baner').length) {
+    const fraction = document.querySelector(".baner__big_number_real");
+    const fractionall = document.querySelector(".baner__big_number_all");
+    const slideCount = $('.baner__big_swiper').find('.swiper-slide').length;
+    fraction.textContent = `1`;
+    fractionall.textContent = slideCount;
+    const baner__big_swiper = new Swiper('.baner__big_swiper', {
+        modules: [Pagination, Thumbs, Navigation],
+        thumbs: {
+            swiper: baner__small_swiper,
+        },
+        pagination: {
+            el: ".baner__big_tab",
+        },
+        navigation: {
+            nextEl: ".baner__big_right",
+            prevEl: ".baner__big_left",
+        },
+        on: {
+            slideChange: () => {
+                fraction.textContent = baner__big_swiper.realIndex + 1;
+            }
         }
-    }
-});
-
-baner__big_swiper.on("slideChange", function () {
-    baner__info_swiper.slideTo(this.activeIndex, 2000);
-});
+    });
+    
+    baner__big_swiper.on("slideChange", function () {
+        baner__info_swiper.slideTo(this.activeIndex, 2000);
+    });
+}
