@@ -140,13 +140,29 @@
         }
     }
     &__error {
-        display: none;
-        color: #FF414C;
-        margin-top: 4.8rem;
-        font-size: 1.8rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 166.667%;
+        &_text {
+            display: none;
+            color: #FF414C;
+            margin-top: 4.8rem;
+            font-size: 1.8rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 166.667%;
+        }
+        .adding__error_text {
+            display: block;
+        }
+        .adding__content__item {
+
+            .adding__content__error {
+                color: #FF414C;
+                display: block;
+                font-weight: 700;
+            }
+            input {
+                color: #FF414C;
+            }
+        }
     }
 
     &__content {
@@ -439,9 +455,11 @@
             }
         }
         &__error {
-            margin-top: 4rem;
-            font-size: 3rem;
-            line-height: 200%;
+            &_text {
+                margin-top: 4rem;
+                font-size: 3rem;
+                line-height: 200%;
+            }
         }
 
         &__content {
