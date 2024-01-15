@@ -1,73 +1,342 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <main>
-      <section class="project-page">
-        <div class="container">
-          <div class="project-page__top">
-            <div class="project-page__text-wrap">
-              <p>Страниц: <span>1</span></p>
-              <p>Стилей: <span>3</span></p>
-              <div class="project-page__btns">
-                <a class="project-page__btn btn-circle--yellow">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="69" height="69" viewBox="0 0 69 69" fill="none">
-                    <rect width="69" height="69" rx="34.5" fill="#E1E046"/>
-                    <path d="M27.5117 26.437V24.9935C27.5117 21.6453 30.2052 18.3565 33.5535 18.044C37.5416 17.6571 40.9048 20.797 40.9048 24.7108V26.7644" stroke="#2B2D30" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M29.7444 47.7614H38.6731C44.6553 47.7614 45.7268 45.3655 46.0393 42.4488L47.1554 33.5201C47.5572 29.8891 46.5155 26.9277 40.1612 26.9277H28.2563C21.902 26.9277 20.8603 29.8891 21.2621 33.5201L22.3782 42.4488C22.6907 45.3655 23.7622 47.7614 29.7444 47.7614Z" fill="#2B2D30"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M39.4107 32.8808H39.4241Z" fill="#2B2D30"/>
-                    <path d="M39.4107 32.8808H39.4241" stroke="#E1E046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M28.9917 32.8808H29.0051Z" fill="#2B2D30"/>
-                    <path d="M28.9917 32.8808H29.0051" stroke="#E1E046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
-                </a>
-                <a class="project-page__btn">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="69" height="69" viewBox="0 0 69 69" fill="none">
-                    <rect x="0.372085" y="0.372085" width="68.2498" height="68.2498" rx="34.1249" fill="#2B2D30" stroke="#969696" stroke-width="0.744171"/>
-                    <path d="M35.847 25.6851L37.5958 29.1828C37.8343 29.6697 38.4703 30.1368 39.0068 30.2262L42.1766 30.7528C44.2037 31.0907 44.6807 32.5613 43.22 34.012L40.7557 36.4763C40.3384 36.8937 40.1098 37.6985 40.239 38.2749L40.9445 41.3254C41.5009 43.74 40.2191 44.674 38.0827 43.4121L35.1117 41.6533C34.5751 41.3353 33.6907 41.3353 33.1442 41.6533L30.1732 43.4121C28.0467 44.674 26.755 43.7301 27.3114 41.3254L28.0169 38.2749C28.1461 37.6985 27.9176 36.8937 27.5002 36.4763L25.0359 34.012C23.5852 32.5613 24.0522 31.0907 26.0793 30.7528L29.2491 30.2262C29.7757 30.1368 30.4117 29.6697 30.6501 29.1828L32.399 25.6851C33.3529 23.7872 34.903 23.7872 35.847 25.6851Z" fill="white"/>
-                  </svg>
-                </a>
-              </div>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+   </head>
+   <body>
+      <main>
+         <section class="project-page">
+            <div class="container">
+               <div class="project-page__top">
+                  <div class="project-page__text-wrap">
+                     <p>Страниц: <span>1</span></p>
+                     <p>Стилей: <span>3</span></p>
+                     <div class="project-page__btns">
+                        <a class="project-page__btn btn-circle--yellow">
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="69"
+                              height="69"
+                              viewBox="0 0 69 69"
+                              fill="none"
+                           >
+                              <rect width="69" height="69" rx="34.5" fill="#E1E046" />
+                              <path
+                                 d="M27.5117 26.437V24.9935C27.5117 21.6453 30.2052 18.3565 33.5535 18.044C37.5416 17.6571 40.9048 20.797 40.9048 24.7108V26.7644"
+                                 stroke="#2B2D30"
+                                 stroke-width="1.5"
+                                 stroke-miterlimit="10"
+                                 stroke-linecap="round"
+                                 stroke-linejoin="round"
+                              />
+                              <path
+                                 d="M29.7444 47.7614H38.6731C44.6553 47.7614 45.7268 45.3655 46.0393 42.4488L47.1554 33.5201C47.5572 29.8891 46.5155 26.9277 40.1612 26.9277H28.2563C21.902 26.9277 20.8603 29.8891 21.2621 33.5201L22.3782 42.4488C22.6907 45.3655 23.7622 47.7614 29.7444 47.7614Z"
+                                 fill="#2B2D30"
+                              />
+                              <path
+                                 fill-rule="evenodd"
+                                 clip-rule="evenodd"
+                                 d="M39.4107 32.8808H39.4241Z"
+                                 fill="#2B2D30"
+                              />
+                              <path
+                                 d="M39.4107 32.8808H39.4241"
+                                 stroke="#E1E046"
+                                 stroke-width="2"
+                                 stroke-linecap="round"
+                                 stroke-linejoin="round"
+                              />
+                              <path
+                                 fill-rule="evenodd"
+                                 clip-rule="evenodd"
+                                 d="M28.9917 32.8808H29.0051Z"
+                                 fill="#2B2D30"
+                              />
+                              <path
+                                 d="M28.9917 32.8808H29.0051"
+                                 stroke="#E1E046"
+                                 stroke-width="2"
+                                 stroke-linecap="round"
+                                 stroke-linejoin="round"
+                              />
+                           </svg>
+                        </a>
+                        <a class="project-page__btn">
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="69"
+                              height="69"
+                              viewBox="0 0 69 69"
+                              fill="none"
+                           >
+                              <rect
+                                 x="0.372085"
+                                 y="0.372085"
+                                 width="68.2498"
+                                 height="68.2498"
+                                 rx="34.1249"
+                                 fill="#2B2D30"
+                                 stroke="#969696"
+                                 stroke-width="0.744171"
+                              />
+                              <path
+                                 d="M35.847 25.6851L37.5958 29.1828C37.8343 29.6697 38.4703 30.1368 39.0068 30.2262L42.1766 30.7528C44.2037 31.0907 44.6807 32.5613 43.22 34.012L40.7557 36.4763C40.3384 36.8937 40.1098 37.6985 40.239 38.2749L40.9445 41.3254C41.5009 43.74 40.2191 44.674 38.0827 43.4121L35.1117 41.6533C34.5751 41.3353 33.6907 41.3353 33.1442 41.6533L30.1732 43.4121C28.0467 44.674 26.755 43.7301 27.3114 41.3254L28.0169 38.2749C28.1461 37.6985 27.9176 36.8937 27.5002 36.4763L25.0359 34.012C23.5852 32.5613 24.0522 31.0907 26.0793 30.7528L29.2491 30.2262C29.7757 30.1368 30.4117 29.6697 30.6501 29.1828L32.399 25.6851C33.3529 23.7872 34.903 23.7872 35.847 25.6851Z"
+                                 fill="white"
+                              />
+                           </svg>
+                        </a>
+                     </div>
+                  </div>
+                  <a class="project-page__link btn-link" href="#0"
+                     >В каталог
+                     <div class="btn-link__arr">
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           width="19"
+                           height="14"
+                           viewBox="0 0 19 14"
+                           fill="none"
+                        >
+                           <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M11.1497 1.28033C10.8568 0.987437 10.8568 0.512563 11.1497 0.21967C11.4426 -0.0732233 11.9174 -0.0732233 12.2103 0.21967L18.2803 6.28967C18.421 6.43032 18.5 6.62109 18.5 6.82C18.5 7.01891 18.421 7.20968 18.2803 7.35033L12.2103 13.4203C11.9174 13.7132 11.4426 13.7132 11.1497 13.4203C10.8568 13.1274 10.8568 12.6526 11.1497 12.3597L15.9393 7.57007H0.750078C0.335865 7.57007 7.82013e-05 7.23428 7.82013e-05 6.82007C7.82013e-05 6.40585 0.335865 6.07007 0.750078 6.07007H15.9394L11.1497 1.28033Z"
+                              fill="white"
+                           />
+                        </svg>
+                     </div>
+                  </a>
+                  <p class="project-page__cost text">Купить: <span>500 ₽</span></p>
+                  <div class="project-page__tags-wrap">
+                     <div class="project-page__tags text">
+                        #Слайдер #Карточки товара #Текстовый блок #Пагинация #Необычные кнопки #Баннер
+                        #Текстовый блок #Пагинация #Необычные кнопки #Меню
+                     </div>
+                     <p class="project-page__author text">Автор: <span>Зинаида ВЕБ</span></p>
+                  </div>
+               </div>
+               <div class="project-page__content">
+                  <div class="project-page__content-cover">
+                     <img src="./assets/images/project.webp" alt="" />
+                  </div>
+                  <div class="project-page__video-wrap">
+                     <div class="project-page__video-text-wrap">
+                        <p class="project-page__video-title">Видео - обзор</p>
+                        <p class="project-page__video-text text">
+                           Помощь в работе над шаблоном<br />и применении нового стиля.
+                        </p>
+                     </div>
+                     <div class="project-page__video">
+                        <iframe
+                           width="560"
+                           height="315"
+                           src="https://www.youtube.com/embed/oQeGLvEIfLM?si=Y28KCZot5w4rkMqJ"
+                           title="YouTube video player"
+                           frameborder="0"
+                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                           allowfullscreen
+                        ></iframe>
+                     </div>
+                  </div>
+                  <div class="project-page__content-img">
+                     <img src="./assets/images/project.webp" alt="" />
+                  </div>
+               </div>
             </div>
             <a class="project-page__link btn-link" href="#0">
-              <span>В каталог</span>
-              <div class="btn-link__arr">
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" viewBox="0 0 19 14" fill="none">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.1497 1.28033C10.8568 0.987437 10.8568 0.512563 11.1497 0.21967C11.4426 -0.0732233 11.9174 -0.0732233 12.2103 0.21967L18.2803 6.28967C18.421 6.43032 18.5 6.62109 18.5 6.82C18.5 7.01891 18.421 7.20968 18.2803 7.35033L12.2103 13.4203C11.9174 13.7132 11.4426 13.7132 11.1497 13.4203C10.8568 13.1274 10.8568 12.6526 11.1497 12.3597L15.9393 7.57007H0.750078C0.335865 7.57007 7.82013e-05 7.23428 7.82013e-05 6.82007C7.82013e-05 6.40585 0.335865 6.07007 0.750078 6.07007H15.9394L11.1497 1.28033Z" fill="white"/>
-                </svg>
-              </div>
+               <span>В каталог</span>
+               <div class="btn-link__arr">
+                  <svg
+                     xmlns="http://www.w3.org/2000/svg"
+                     width="19"
+                     height="14"
+                     viewBox="0 0 19 14"
+                     fill="none"
+                  >
+                     <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M11.1497 1.28033C10.8568 0.987437 10.8568 0.512563 11.1497 0.21967C11.4426 -0.0732233 11.9174 -0.0732233 12.2103 0.21967L18.2803 6.28967C18.421 6.43032 18.5 6.62109 18.5 6.82C18.5 7.01891 18.421 7.20968 18.2803 7.35033L12.2103 13.4203C11.9174 13.7132 11.4426 13.7132 11.1497 13.4203C10.8568 13.1274 10.8568 12.6526 11.1497 12.3597L15.9393 7.57007H0.750078C0.335865 7.57007 7.82013e-05 7.23428 7.82013e-05 6.82007C7.82013e-05 6.40585 0.335865 6.07007 0.750078 6.07007H15.9394L11.1497 1.28033Z"
+                        fill="white"
+                     />
+                  </svg>
+               </div>
             </a>
             <p class="project-page__cost text">Купить: <span>500 ₽</span></p>
             <div class="project-page__tags-wrap">
-              <div class="project-page__tags text">
-                #Слайдер #Карточки товара #Текстовый блок #Пагинация #Необычные кнопки #Баннер #Текстовый блок #Пагинация #Необычные кнопки #Меню
-              </div>
-              <p class="project-page__author text">Автор: <span>Зинаида ВЕБ</span></p>
+               <div class="project-page__tags text">
+                  #Слайдер #Карточки товара #Текстовый блок #Пагинация #Необычные кнопки #Баннер #Текстовый
+                  блок #Пагинация #Необычные кнопки #Меню
+               </div>
+               <p class="project-page__author text">Автор: <span>Зинаида ВЕБ</span></p>
             </div>
-          </div>
-          <div class="project-page__content">
-            <div class="project-page__content-cover">
-              <img src="./assets/images/project.webp" alt="">
+         </section>
+         <section class="projects-list">
+            <div class="projects-list__container container">
+               <div class="projects-list__head">
+                  <div class="projects-list__head-column">
+                     <a href="#" class="btn-link desktop">
+                        <span>Работы автора</span>
+                        <div class="btn-arrow black">
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="17"
+                              height="13"
+                              viewBox="0 0 17 13"
+                              fill="none"
+                           >
+                              <path
+                                 fill-rule="evenodd"
+                                 clip-rule="evenodd"
+                                 d="M7.12518 2.07303C6.72508 1.96582 6.48764 1.55457 6.59485 1.15447C6.70206 0.754368 7.11331 0.516931 7.51341 0.624137L15.8052 2.84591C15.9973 2.89739 16.1611 3.02309 16.2606 3.19536C16.36 3.36762 16.387 3.57234 16.3355 3.76447L14.1137 12.0562C14.0065 12.4563 13.5953 12.6938 13.1952 12.5866C12.7951 12.4794 12.5576 12.0681 12.6648 11.668L14.418 5.1253L1.26374 12.7199C0.905019 12.927 0.446325 12.8041 0.239219 12.4454C0.0321117 12.0867 0.155018 11.628 0.513738 11.4209L13.6681 3.82619L7.12518 2.07303Z"
+                                 fill="white"
+                              />
+                           </svg>
+                        </div>
+                     </a>
+                     <div class="projects-list__head-subtitle">Связанные дизайны</div>
+                  </div>
+                  <div class="projects-list__head-column">
+                     <div class="projects-list__head-title">still</div>
+                     <div class="projects-list__head-text desktop">Автор связал работы с этим проектом</div>
+                  </div>
+               </div>
+               <include src="./components/projects-list.html"></include>
+               <div class="projects-list__bottom">
+                  <a href="#" class="btn-link mobile">
+                     <span>Работы автора</span>
+                     <div class="btn-arrow black">
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           width="17"
+                           height="13"
+                           viewBox="0 0 17 13"
+                           fill="none"
+                        >
+                           <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M7.12518 2.07303C6.72508 1.96582 6.48764 1.55457 6.59485 1.15447C6.70206 0.754368 7.11331 0.516931 7.51341 0.624137L15.8052 2.84591C15.9973 2.89739 16.1611 3.02309 16.2606 3.19536C16.36 3.36762 16.387 3.57234 16.3355 3.76447L14.1137 12.0562C14.0065 12.4563 13.5953 12.6938 13.1952 12.5866C12.7951 12.4794 12.5576 12.0681 12.6648 11.668L14.418 5.1253L1.26374 12.7199C0.905019 12.927 0.446325 12.8041 0.239219 12.4454C0.0321117 12.0867 0.155018 11.628 0.513738 11.4209L13.6681 3.82619L7.12518 2.07303Z"
+                              fill="white"
+                           />
+                        </svg>
+                     </div>
+                  </a>
+               </div>
             </div>
-            <div class="project-page__video-wrap">
-              <div class="project-page__video-text-wrap">
-                <p class="project-page__video-title">Видео - обзор</p>
-                <p class="project-page__video-text text">Помощь в работе над шаблоном<br>и применении нового стиля.</p>
-              </div>
-              <div class="project-page__video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/oQeGLvEIfLM?si=Y28KCZot5w4rkMqJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              </div>
+         </section>
+         <section class="projects-list">
+            <div class="projects-list__container container">
+               <div class="projects-list__head">
+                  <div class="projects-list__head-column">
+                     <a href="#" class="btn-link desktop">
+                        <span>Каталог</span>
+                        <div class="btn-arrow black">
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="17"
+                              height="13"
+                              viewBox="0 0 17 13"
+                              fill="none"
+                           >
+                              <path
+                                 fill-rule="evenodd"
+                                 clip-rule="evenodd"
+                                 d="M7.12518 2.07303C6.72508 1.96582 6.48764 1.55457 6.59485 1.15447C6.70206 0.754368 7.11331 0.516931 7.51341 0.624137L15.8052 2.84591C15.9973 2.89739 16.1611 3.02309 16.2606 3.19536C16.36 3.36762 16.387 3.57234 16.3355 3.76447L14.1137 12.0562C14.0065 12.4563 13.5953 12.6938 13.1952 12.5866C12.7951 12.4794 12.5576 12.0681 12.6648 11.668L14.418 5.1253L1.26374 12.7199C0.905019 12.927 0.446325 12.8041 0.239219 12.4454C0.0321117 12.0867 0.155018 11.628 0.513738 11.4209L13.6681 3.82619L7.12518 2.07303Z"
+                                 fill="white"
+                              />
+                           </svg>
+                        </div>
+                     </a>
+                     <div class="projects-list__head-subtitle">Подборка для вас</div>
+                  </div>
+                  <div class="projects-list__head-column">
+                     <div class="projects-list__head-title">Ui Ux</div>
+                     <div class="projects-list__head-text desktop">Загружайте и продавайте cвои работы</div>
+                  </div>
+               </div>
+               <include src="./components/projects-list.html"></include>
+               <div class="projects-list__bottom">
+                  <div class="projects-list__pagination">
+                     <div class="projects-list__pagination-prev">
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           width="19"
+                           height="14"
+                           viewBox="0 0 19 14"
+                           fill="none"
+                        >
+                           <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M7.35033 1.28033C7.64322 0.987437 7.64322 0.512563 7.35033 0.21967C7.05744 -0.0732233 6.58256 -0.0732233 6.28967 0.21967L0.21967 6.28967C0.0790176 6.43032 0 6.62109 0 6.82C0 7.01891 0.0790176 7.20968 0.21967 7.35033L6.28967 13.4203C6.58256 13.7132 7.05744 13.7132 7.35033 13.4203C7.64322 13.1274 7.64322 12.6526 7.35033 12.3597L2.56073 7.57007H17.7499C18.1641 7.57007 18.4999 7.23428 18.4999 6.82007C18.4999 6.40585 18.1641 6.07007 17.7499 6.07007H2.56059L7.35033 1.28033Z"
+                              fill="#2B2D30"
+                           />
+                        </svg>
+                     </div>
+                     <div class="projects-list__pagination-numbers">
+                        <div class="projects-list__pagination-number active">1</div>
+                        <div class="projects-list__pagination-separator">
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="19"
+                              height="2"
+                              viewBox="0 0 19 2"
+                              fill="none"
+                           >
+                              <path
+                                 d="M1.00008 0.820312H17.8301"
+                                 stroke="#2B2D30"
+                                 stroke-width="1.5"
+                                 stroke-miterlimit="10"
+                                 stroke-linecap="round"
+                                 stroke-linejoin="round"
+                              />
+                           </svg>
+                        </div>
+                        <div class="projects-list__pagination-number">5</div>
+                     </div>
+                     <div class="projects-list__pagination-next">
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           width="19"
+                           height="14"
+                           viewBox="0 0 19 14"
+                           fill="none"
+                        >
+                           <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M11.1497 1.28033C10.8568 0.987437 10.8568 0.512563 11.1497 0.21967C11.4426 -0.0732233 11.9174 -0.0732233 12.2103 0.21967L18.2803 6.28967C18.421 6.43032 18.5 6.62109 18.5 6.82C18.5 7.01891 18.421 7.20968 18.2803 7.35033L12.2103 13.4203C11.9174 13.7132 11.4426 13.7132 11.1497 13.4203C10.8568 13.1274 10.8568 12.6526 11.1497 12.3597L15.9393 7.57007H0.750078C0.335865 7.57007 7.82013e-05 7.23428 7.82013e-05 6.82007C7.82013e-05 6.40585 0.335865 6.07007 0.750078 6.07007H15.9394L11.1497 1.28033Z"
+                              fill="#2B2D30"
+                           />
+                        </svg>
+                     </div>
+                  </div>
+                  <a href="#" class="btn-link mobile">
+                     <span>Каталог</span>
+                     <div class="btn-arrow black">
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           width="17"
+                           height="13"
+                           viewBox="0 0 17 13"
+                           fill="none"
+                        >
+                           <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M7.12518 2.07303C6.72508 1.96582 6.48764 1.55457 6.59485 1.15447C6.70206 0.754368 7.11331 0.516931 7.51341 0.624137L15.8052 2.84591C15.9973 2.89739 16.1611 3.02309 16.2606 3.19536C16.36 3.36762 16.387 3.57234 16.3355 3.76447L14.1137 12.0562C14.0065 12.4563 13.5953 12.6938 13.1952 12.5866C12.7951 12.4794 12.5576 12.0681 12.6648 11.668L14.418 5.1253L1.26374 12.7199C0.905019 12.927 0.446325 12.8041 0.239219 12.4454C0.0321117 12.0867 0.155018 11.628 0.513738 11.4209L13.6681 3.82619L7.12518 2.07303Z"
+                              fill="white"
+                           />
+                        </svg>
+                     </div>
+                  </a>
+               </div>
             </div>
-            <div class="project-page__content-img">
-              <img src="./assets/images/project.webp" alt="">
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
+         </section>
+      </main>
+   </body>
 </html>
