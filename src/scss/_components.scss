@@ -22,6 +22,7 @@ $gray: #969696;
 
     &.white {
         background-color: $white;
+        border: 1px solid $gray;
     }
 
     &.yellow {
@@ -74,6 +75,7 @@ $gray: #969696;
     span {
         font-size: 1.8rem;
         font-weight: 500;
+        color: $black;
     }
 
     @media (max-width: 48em) {

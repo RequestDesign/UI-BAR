@@ -6,6 +6,7 @@
       <title>Document</title>
    </head>
    <body>
+      <include src="./components/header.html"></include>
       <main>
          <section class="lk-tabs">
             <div class="lk-tabs__container container">
@@ -65,7 +66,7 @@
             <div class="lk-blocks__container container">
                <div class="lk-blocks__block bought active">
                   <div class="lk-blocks__block-content">
-                     <div>Блок 1</div>
+                     <include src="./components/projects-list.html"></include>
                   </div>
                   <div class="lk-blocks__block-empty">
                      <div class="lk-blocks__block-empty_title">Вы пока ничего не купили</div>
@@ -137,7 +138,7 @@
                </div>
                <div class="lk-blocks__block uploaded">
                   <div class="lk-blocks__block-content">
-                     <div>Блок 2</div>
+                     <include src="./components/projects-list.html"></include>
                   </div>
                   <div class="lk-blocks__block-empty">
                      <div class="lk-blocks__block-empty_title">Загрузите свой первый WEB - шаблон</div>
@@ -188,5 +189,6 @@
             </div>
          </section>
       </main>
+      <include src="./components/footer.html"></include>
    </body>
 </html>
