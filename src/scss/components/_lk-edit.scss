@@ -1,0 +1,62 @@
+.lk-edit {
+  margin-bottom: 16rem;
+
+  &__form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    width: 69.3rem;
+  }
+
+  &__title {
+    font-family: 'Euclid Circular A';
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: normal;
+    color: $black;
+    margin-bottom: 3.8rem;
+  }
+  &__input {
+    width: 100%;
+    font-family: 'Euclid Circular A';
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3rem;
+    color: $black;
+    margin-bottom: 3.8rem;
+    border-bottom: 0.1rem solid $gray;
+    &::placeholder {
+      font-weight: 300;
+      color: $gray;
+    }
+  }
+}
+
+@media (max-width: 48em) {
+  .lk-edit {
+    margin-bottom: 22rem;
+  
+    &__form {
+      flex-direction: column;
+      gap: 12rem;
+    }
+    &__item {
+      width: 100%;
+    }
+  
+    &__title {
+      font-size: 4rem;
+      margin-bottom: 7rem;
+    }
+    &__input {
+      font-size: 3rem;
+      font-weight: 600;
+      line-height: 6rem;
+      margin-bottom: 4rem;
+      border-bottom: 0.2rem solid $gray;
+    }
+  }
+}

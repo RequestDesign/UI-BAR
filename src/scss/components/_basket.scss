@@ -1,0 +1,115 @@
+.basket {
+  margin-bottom: 16rem;
+		&__item {
+      padding: 3.6rem 0;
+      display: flex;
+      gap: 6rem;
+      border-bottom: 0.1rem solid $gray;
+      &:first-child {
+        border-top: 0.1rem solid $gray;
+      }
+		}
+		&__img {
+      width: 48.5rem;
+      height: 29.5rem;
+      & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+		}
+		&__cost {
+      margin-bottom: 2.5rem;
+      & span {
+        font-size: 3.5rem;
+        font-weight: 600;
+      }
+		}
+		&__desc {
+      &-wrap {
+        display: flex;
+        margin-bottom: 9.4rem;
+        gap: 4rem;
+      }
+      & span {
+        font-weight: 700;
+      }
+		}
+		&__btn {
+      color: $gray;
+		}
+
+		&__bottom {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 3.9rem;
+      .btn-link {
+        color: $black;
+        gap: 2.9rem;
+        &__arr-circle {
+          background-color: $black;
+        }
+      }
+		}
+    &__total {
+      color: $black;
+      font-family: 'Euclid Circular A';
+      font-size: 3rem;
+      font-weight: 300;
+      line-height: normal;
+      & span {
+        font-weight: 700;
+      }
+    }
+}
+
+@media (max-width: 48em) {
+  .basket {
+    margin-bottom: 22rem;
+      &__item {
+        padding: 4rem 0;
+        gap: 3.8rem;
+        border-bottom: 0.2rem solid $gray;
+        &:first-child {
+          border-top: 0.2rem solid $gray;
+        }
+      }
+      &__img {
+        width: 33rem;
+        height: 20rem;
+      }
+      &__cost {
+        margin-bottom: 4rem;
+        & span {
+          font-size: 3rem;
+          font-weight: 600;
+        }
+      }
+      &__desc {
+        &-wrap {
+          flex-direction: column;
+          margin-bottom: 8rem;
+          gap: 2rem;
+        }
+      }
+      &__bottom {
+        display: none;
+      }
+      &__button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-size: 4rem;
+        gap: 4rem;
+        padding: 4rem;
+        border-radius: 20rem;
+        background-color: $black;
+        color: $white;
+        margin-top: 7rem;
+        & span {
+          font-weight: 700;
+        }
+      }
+  }
+}
