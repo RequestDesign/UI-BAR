@@ -97,7 +97,11 @@
         display: none;
       }
       &__button {
-        width: 100%;
+        // width: 100%;
+        position: fixed;
+        left: 4.2rem;
+        bottom: 6rem;
+        width: 69.6rem;
         display: flex;
         align-items: center;
         font-size: 4rem;

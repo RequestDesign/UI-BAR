@@ -1,5 +1,6 @@
 .lk-blocks {
     padding: 10rem 0;
+
     &__block {
         display: none;
 
@@ -95,6 +96,8 @@
     }
 
     @media (max-width: 48em) {
+        padding-top: 30rem;
+
         &__block {
             &.empty {
                 &.bought {

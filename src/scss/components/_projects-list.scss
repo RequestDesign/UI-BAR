@@ -1,5 +1,9 @@
 .projects-list {
-    padding: 16rem 0;
+    padding: 16rem 0 16rem 0;
+
+    & + .projects-list {
+        padding-top: 0;
+    }
 
     &__head {
         display: flex;
@@ -38,7 +42,15 @@
 
     &__body {
         border: 1px solid $gray;
-        margin-bottom: 7.9rem;
+        margin-bottom: 7rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &.no-margin {
+            margin-bottom: 0;
+        }
 
         &-row {
             display: flex;
@@ -127,6 +139,9 @@
 
         &-btn {
             cursor: pointer;
+            width: 5.8662rem;
+            height: 5.8662rem;
+
             &.black {
                 rect {
                     fill: $black;
@@ -135,6 +150,13 @@
 
                 path {
                     fill: $white;
+                }
+            }
+
+            &.like {
+                svg {
+                    width: 100%;
+                    height: 100%;
                 }
             }
         }
