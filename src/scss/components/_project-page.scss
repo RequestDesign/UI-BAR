@@ -182,6 +182,7 @@
         font-size: 3rem;
         line-height: 2.5rem;
         color: $white;
+        line-height: normal;
         &-wrap {
           width: 100%;
           gap: 4rem;
@@ -210,18 +211,45 @@
       &__video-text-wrap {
         align-items: center;
         margin-bottom: 4rem;
+        justify-content: space-between;
       }
       &__video {
         & iframe {
           height: 38.6rem;
         }
         &-title {
-          margin-right: 4rem;
+          margin-right: 0rem;
           font-size: 4rem;
         }
         &-text {
-          width: 32.8rem;
+          width: 25.8rem;
+          font-size: 2.4rem;
+        }
+      }
+
+      &__order-btn {
+        position: fixed;
+        left: 13.8rem;
+        bottom: 6rem;
+        width: 50.4rem;
+        height: 10.8rem;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15.8rem;
+        cursor: pointer;
+        z-index: 10;
+
+        p {
+          width: 40.6rem;
+          text-align: center;
           font-size: 3rem;
+          line-height: 5rem; /* 166.667% */
+
+          span {
+            font-weight: 700;
+          }
         }
       }
   }

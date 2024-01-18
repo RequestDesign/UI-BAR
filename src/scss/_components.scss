@@ -31,6 +31,14 @@ $gray: #969696;
         path {
             fill: $black;
         }
+
+        &.cart {
+            path {
+                &:first-child {
+                    fill: none;
+                }
+            }
+        }
     }
 
     @media (max-width: 48em) {
