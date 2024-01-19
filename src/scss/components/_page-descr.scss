@@ -1,6 +1,14 @@
 .page-descr {
     margin-bottom: 8rem;
 
+    & + .projects-list {
+        padding-top: 0;
+    }
+
+    & + .basket {
+        padding-top: 0;
+    }
+
     &__container {
         position: relative;
     }

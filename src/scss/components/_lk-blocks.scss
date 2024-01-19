@@ -1,5 +1,5 @@
 .lk-blocks {
-    padding: 10rem 0;
+    padding: 14.7rem 0;
 
     &__block {
         display: none;
@@ -13,6 +13,8 @@
         }
 
         &.empty {
+            margin-top: 4.5rem;
+
             &.bought {
                 .lk-blocks__block-empty_img {
                     left: calc(100% - 119.2rem);
@@ -26,6 +28,7 @@
             }
 
             &.uploaded {
+
                 .lk-blocks__block-empty_img {
                     width: 49.1rem;
                     height: 61.6rem;
@@ -49,12 +52,12 @@
             justify-content: space-between;
             position: relative;
             height: 37rem;
-            padding: 12.8rem 10.5rem;
+            padding: 0rem 10.5rem;
             background-color: $black;
             color: $white;
 
             &_title {
-                width: 20.6rem;
+                width: 30.5rem;
                 font-size: 3rem;
                 font-weight: 500;
                 text-transform: uppercase;
@@ -73,7 +76,7 @@
                     }
 
                     &:last-child {
-                        width: 22.6rem;
+                        width: 23.6rem;
                         text-align: right;
                         font-size: 1.8rem;
                         font-weight: 300;
@@ -98,8 +101,14 @@
     @media (max-width: 48em) {
         padding-top: 30rem;
 
+        .container {
+            overflow-x: clip;
+        }
+
         &__block {
             &.empty {
+                margin-top: 14.8rem;
+
                 &.bought {
                     .lk-blocks__block-empty {
                         justify-content: flex-start;
