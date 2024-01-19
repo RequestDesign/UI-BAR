@@ -1,4 +1,8 @@
 .statia {
+  & + .projects-list {
+    padding-top: 0;
+  }
+
   margin-bottom: 16rem;
   &__inner {
     width: 117.7rem;
@@ -101,7 +105,7 @@
       }
       position: fixed;
       z-index: 200;
-      top: 78%;
+      top: calc(100% - 26.3rem);
       left: 0;
       &__content {
         position: relative;
@@ -233,7 +237,7 @@
       }
       &__title {
         position: absolute;
-        top: 6rem;
+        top: 38.6rem;
         font-size: 4rem;
         margin-bottom: 0;
       }
@@ -288,7 +292,7 @@
           transition: transform 0.3s ease-in-out;
         }
         position: relative;
-        margin-bottom: 5rem;
+        margin-bottom: 0rem;
         margin-top: 5rem;
         &__content {
           position: relative;
@@ -354,7 +358,7 @@
               transform: rotate(160deg);
             }
             &__close {
-              top: 4rem;
+              top: 8rem;
               right: 4rem;
               width: 8.6rem;
               height: 8.6rem;

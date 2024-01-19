@@ -187,6 +187,10 @@
             width: fit-content;
             margin-left: auto;
             margin-top: 7rem;
+
+            &.desktop {
+                display: none;
+            }
         }
     }
 

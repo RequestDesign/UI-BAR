@@ -8,6 +8,10 @@
       &:first-child {
         border-top: 0.1rem solid $gray;
       }
+
+      &-content {
+        padding-top: 4.3rem;
+      }
 		}
 		&__img {
       width: 48.5rem;
@@ -28,7 +32,7 @@
 		&__desc {
       &-wrap {
         display: flex;
-        margin-bottom: 9.4rem;
+        margin-bottom: 9.5rem;
         gap: 4rem;
       }
       & span {
@@ -37,6 +41,12 @@
 		}
 		&__btn {
       color: $gray;
+      flex-direction: row-reverse;
+      column-gap: 0.6rem;
+
+      span {
+        color: $gray;
+      }
 		}
 
 		&__bottom {
@@ -74,13 +84,17 @@
         &:first-child {
           border-top: 0.2rem solid $gray;
         }
+
+        &-content {
+          padding-top: 0;
+        }
       }
       &__img {
         width: 33rem;
         height: 20rem;
       }
       &__cost {
-        margin-bottom: 4rem;
+        margin-bottom: 2.8rem;
         & span {
           font-size: 3rem;
           font-weight: 600;
@@ -89,8 +103,8 @@
       &__desc {
         &-wrap {
           flex-direction: column;
-          margin-bottom: 8rem;
-          gap: 2rem;
+          margin-bottom: 2.8rem;
+          gap: 0rem;
         }
       }
       &__bottom {
@@ -114,6 +128,10 @@
         & span {
           font-weight: 700;
         }
+      }
+
+      &__btn {
+        column-gap: 1.14rem;
       }
   }
 }

@@ -34,10 +34,10 @@
     }
 
     @media (max-width: 48em) {
-        padding: 13.4rem 0;
+        padding: 13.4rem 0 14.4rem 0;
 
         &__row {
-            padding-bottom: 5.8rem;
+            padding-bottom: 0;
         }
 
         &__item {
