@@ -124,6 +124,7 @@
         .header_logo_black {
             display: block;
             opacity: 0;
+            top: -12rem;
         }
         .container {
             display: flex;
@@ -153,12 +154,12 @@
                 .header__box {
 					transform: translateY(0);
 				}
-                .header_logo_black {
-                    opacity: 1;
-                }
-                .header_logo_white {
-                    opacity: 0;
-                }
+                // .header_logo_black {
+                //     opacity: 1;
+                // }
+                // .header_logo_white {
+                //     opacity: 0;
+                // }
                 .header__burger {
                     span {
                         background: #FFF;
@@ -228,6 +229,7 @@
             &-logo {
                 width: 42.9rem;
                 height: 32.8rem;
+                margin-top: -12rem;
 
                 // img.black {
                 //     display: none;
