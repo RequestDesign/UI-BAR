@@ -1,20 +1,23 @@
 import $ from "jquery";
 
-$(document).ready(function(){
-	$('.header__burger').click(function(){
-		$('body').toggleClass('lock');
-        $(this).parents('.container').toggleClass('active')
-	});
+$(document).ready(function () {
+   $(".header__burger").click(function () {
+      $("body").addClass("lock");
+      $(this).parents(".container").addClass("active");
+   });
 
-	// $(window).scroll(function () {
-	// 	var scrollPosition = $(window).scrollTop()
+   $(".header__menu-close").click(function () {
+      $("body").removeClass("lock");
+      $(this).parents(".container").removeClass("active");
+   });
 
-	// 	if(scrollPosition > 0) {
-	// 		$('.header').addClass('on-top')
-	// 	} else {
-	// 		$('.header').removeClass('on-top')
-	// 	}
-	// })
+   // $(window).scroll(function () {
+   // 	var scrollPosition = $(window).scrollTop()
 
+   // 	if(scrollPosition > 0) {
+   // 		$('.header').addClass('on-top')
+   // 	} else {
+   // 		$('.header').removeClass('on-top')
+   // 	}
+   // })
 });
-  

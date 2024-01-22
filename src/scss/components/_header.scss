@@ -47,6 +47,10 @@
         width: 82.1rem;
         justify-content: space-evenly;
 
+        &-head {
+            display: none;
+        }
+
         &_item {
             &.active {
                 position: relative;
@@ -104,6 +108,14 @@
             .header_logo_black {
                 opacity: 1;
             }
+            // .header__menu-logo {
+            //     img.white {
+            //         display: none;
+            //     }
+            //     img.black {
+            //         display: block;
+            //     }
+            // }
         }
         .header_logo_white {
             transition: opacity 0.5s ease-in-out;
@@ -120,24 +132,24 @@
 
             &.active {
                 color: #FFF;
-                .header__burger span {
-					&:nth-child(1) {
-						transform: rotate(45deg);
-						top: 2.8rem;
-						right: 0.6rem;
-					}
+                // .header__burger span {
+				// 	&:nth-child(1) {
+				// 		transform: rotate(45deg);
+				// 		top: 2.8rem;
+				// 		right: 0.6rem;
+				// 	}
 
-					&:nth-child(2) {
-						width: 0%;
-						opacity: 0;
-					}
+				// 	&:nth-child(2) {
+				// 		width: 0%;
+				// 		opacity: 0;
+				// 	}
 
-					&:nth-child(3) {
-						transform: rotate(-45deg);
-						top: 2.8rem;
-						right: 0.6rem;
-					}
-				}
+				// 	&:nth-child(3) {
+				// 		transform: rotate(-45deg);
+				// 		top: 2.8rem;
+				// 		right: 0.6rem;
+				// 	}
+				// }
                 .header__box {
 					transform: translateY(0);
 				}
@@ -212,6 +224,25 @@
                     }
                 }
             }
+
+            &-logo {
+                width: 42.9rem;
+                height: 32.8rem;
+
+                // img.black {
+                //     display: none;
+                // }
+            }
+
+            &-head {
+                display: flex;
+                justify-content: flex-start;
+                column-gap: 9.8rem;
+            }
+
+            &-close {
+                padding-top: 5.8rem;
+            }
         }
         &__btns {
             margin-top: 4rem;
@@ -244,9 +275,9 @@
 			gap: 0;
 			background: #2B2D30;
 			transform: translateY(-150%);
-			padding: 28rem 4.2rem 5rem;
+			padding: 0rem 4.2rem 5rem;
 			transition: transform 0.75s ease-in-out;
-            z-index: 3;
+            z-index: 5;
 
             &s {
                 overflow: auto;
