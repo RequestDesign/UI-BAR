@@ -79,7 +79,7 @@
 
 @media (max-width: 48em) {
     .footer {
-        padding: 12rem 0 7rem;
+        padding: 0rem 0 7rem;
         border-top: 0.2rem solid #969696;
     
         &__top {
@@ -91,6 +91,7 @@
             width: 42.9rem;
             height: 32.8rem;
             margin-left: 0;
+            margin-bottom: 12rem;
         }
         &__list {
             display: flex;
